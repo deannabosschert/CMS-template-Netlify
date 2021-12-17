@@ -1,0 +1,19 @@
+  .c-social-media {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+      .social-media__heading {
+        font-size: 1rem;
+        width: 100%;
+        margin-bottom: $spacing-default;
+      }
+
+      .social-media__text {
+        font-size: $details-size;
+        color: $grey;
+        margin-bottom: $spacing-default;
+      }
+  }

@@ -1,0 +1,55 @@
+.c-hero-header {
+  background-image: url(./assets/images/home_background.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: $layout-medium $layout-huge;
+  margin-bottom: $layout-middle;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vw;
+  width: 100vw;
+  max-width: 100vw;
+
+  .hero-header__content {
+    width: 100%;
+    max-width: $width-xlarge;
+    align-self: flex-start;
+
+    &__header {
+      margin-bottom: $layout-small;
+
+      &__heading {
+        color: $white;
+      }
+
+      &__text {
+        max-width: 500px;
+        color: $white;
+        font-weight: $weight-medium;
+        margin-bottom: $spacing-medium;
+      }
+
+      a {
+        &:hover {}
+
+        &:active {}
+
+        &:focus {}
+      }
+    }
+
+    &__link {
+
+      &:hover {}
+
+      &:active {}
+
+      &:focus {}
+    }
+  }
+}

@@ -1,0 +1,113 @@
+  .c-featured {
+      display: grid;
+      grid-template-columns: $width-middle $width-large;
+      grid-template-areas:
+          "column-1 column-2";
+      grid-gap: 0 0;
+      align-items: center;
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: $layout-default;
+      margin-left: -$layout-small;
+      height: fit-content;
+      position: relative;
+
+      .featured__image {
+          grid-area: column-1;
+          object-fit: cover;
+          box-shadow: $box-shadow-default;
+          height: $height-huge;
+          width: 100%;
+          margin-left: $layout-small;
+          position: absolute;
+      }
+
+      .featured__content {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          grid-area: column-2;
+          background-color: $white;
+          box-shadow: $box-shadow-default;
+          border-radius: $border-radius-def;
+          width: 100%;
+          padding: $layout-small $layout-small $layout-small $layout-default;
+      }
+
+      .featured__heading {
+          font-size: $font-heading;
+          letter-spacing: $heading-letter-spacing;
+          min-width: 100%;
+      }
+
+      .featured__house {
+          width: 100%;
+          margin-bottom: $spacing-large;
+
+          &__heading {}
+
+          &__list {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              justify-content: space-between;
+              margin-bottom: $spacing-medium;
+
+              &__listItem {
+                  color: $blue;
+              }
+          }
+
+          &__text {}
+      }
+
+      .featured__price {
+          font-size: $h3;
+
+          &__new {
+              color: $orange;
+              margin-bottom: $spacing-default;
+
+              &__amount {
+                  margin: 0 $spacing-small;
+              }
+          }
+
+          &__old {
+              font-size: $font-heading;
+
+              &__amount {}
+          }
+      }
+
+      .featured__link {
+          color: $white;
+          background: $blue;
+          border-radius: $border-radius-def;
+          height: $height-small;
+          width: $width-default;
+          padding: $spacing-small $spacing-default;
+          vertical-align: middle;
+
+          &:hover {}
+
+          &:active {}
+
+          &:focus {}
+      }
+
+      .featured__readmore {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: flex-end;
+          width: 100%;
+
+          &:hover {}
+
+          &:active {}
+
+          &:focus {}
+      }
+  }

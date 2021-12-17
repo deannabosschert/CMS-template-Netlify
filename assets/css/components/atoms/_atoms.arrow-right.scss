@@ -1,0 +1,30 @@
+.c-arrow-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    background-color: $blue;
+    color: white;
+    font-size: 1rem;
+
+    width: $width-tiny;
+    height: $height-tiny;
+    line-height: $height-tiny;
+    margin-left: $spacing-default;
+
+    &:hover {
+            color: $blue;
+            border: 1px solid $blue;
+            background-color: $white;
+            cursor: pointer;
+    }
+
+    &:active {
+        cursor: pointer;
+    }
+
+    &:focus {
+        cursor: pointer;
+    }
+}

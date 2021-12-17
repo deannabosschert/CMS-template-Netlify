@@ -1,0 +1,33 @@
+  .c-vakantiehuizen {
+      width: 100vw;
+      height: fit-content;
+      padding: $layout-default $layout-default $layout-small $layout-default;
+      margin-bottom: $layout-default;
+
+      background-image: url('./assets/images/vakantiehuizen.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      .vakantiehuizen__heading {}
+
+      .vakantiehuizen__text {
+          max-width: $width-medium;
+          margin-bottom: $spacing-large;
+          line-height: $body-line-height;
+          color: $grey-darker;
+      }
+
+      .vakantiehuizen__link {
+          color: $black;
+          display: flex;
+          align-items: center;
+
+       
+
+          &:hover {}
+
+          &:active {}
+
+          &:focus {}
+      }
+  }

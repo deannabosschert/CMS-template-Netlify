@@ -1,0 +1,26 @@
+---
+
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% include "../partials/_head.html" %}
+</head>
+
+<body class="{{pageName}}">
+  {% include "../partials/_header.html" %}
+  <main>
+    {{ content | safe }}
+  </main>
+  {% include "../partials/_footer.html" %}
+  
+  {% if path == "home" %}
+  <!-- Netlify Identity Widget -->
+  <!-- Needed only if you are using Netlify Identity feature -->
+  <!-- <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script> -->
+  {% endif %}
+</body>
+
+</html>
+

@@ -1,0 +1,34 @@
+  .c-betrouwbaarheid {
+      background-image: url('./assets/images/betrouwbaarheid.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      width: 100vw;
+      height: fit-content;
+      padding: $layout-default $layout-default $layout-small $layout-default;
+      margin-bottom: $layout-default;
+
+      .betrouwbaarheid__heading {}
+
+      .betrouwbaarheid__text {
+          line-height: $body-line-height;
+          color: $grey-darker;
+
+          max-width: $width-medium;
+          margin-bottom: $spacing-large;
+      }
+
+      .betrouwbaarheid__link {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+
+          color: $black;
+
+          &:hover {}
+
+          &:active {}
+
+          &:focus {}
+      }
+  }

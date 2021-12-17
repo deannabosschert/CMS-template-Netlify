@@ -1,0 +1,19 @@
+<nav class="c-header-nav">
+    <a href="/" class="header-nav__logo">
+       <span class="header-nav__logo__holiday">Holiday</span><span class="header-nav__logo__rentals">Rentals</span><span class="header-nav__logo__curacao">Curacao</span>
+    </a>
+    <ul class="header-nav__menu">
+        <li class="header-nav__menu__listItem">
+            <a href="">Vakantiehuizen </a><button>v</button>
+            {% include "./_nav-dropdown-menu.html" %}
+
+        </li>
+        <li class="header-nav__menu__listItem"><a href="">Appartementen</a></li>
+        <li class="header-nav__menu__listItem"><a href="">Villa's</a></li>
+        <li class="header-nav__menu__listItem"><a href="">Auto huren</a></li>
+        <li class="header-nav__menu__listItem"><a href="">Ontdek Curacao</a></li>
+    </ul>
+
+    {% include "../components/organisms/_search-block.html" %}
+
+</nav>

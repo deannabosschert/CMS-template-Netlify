@@ -1,0 +1,44 @@
+.c-footer-top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  background-image: url('/assets/images/footer-top-bg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  width: 100vw;
+  padding: $layout-default calc((100vw - 1080px) / 2);
+  margin-bottom: $layout-default;
+
+  .footer-top__article {
+    max-width: calc(1080px / 2);
+
+    &:first-child {
+      padding-right: $layout-small;
+    }
+
+    &:last-child {
+      padding-left: $layout-small;
+    }
+
+    &__heading {
+      margin-bottom: $spacing-default;
+    }
+
+    &__text {
+      margin-bottom: $spacing-large;
+      font-style: italic;
+      color: $grey;
+    }
+
+    &__link {
+      &:hover {}
+
+      &:active {}
+
+      &:focus {}
+    }
+  }
+}
