@@ -1,0 +1,7 @@
+<nav class="c-breadcrumbs">
+  <ol class="breadcrumbs__list">
+    {% for breadcrumb in breadcrumbs %}
+    <li class="breadcrumbs__list__listItem"><a class="breadcrumbs__list__listItem__link" href="{{ breadcrumb.link }}">{{ breadcrumb.name }}</a></li>
+    {% endfor %}
+  </ol>
+</nav>

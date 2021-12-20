@@ -1,0 +1,12 @@
+
+  .c-breadcrumbs {
+    .breadcrumbs__list {
+      &__listItem {
+        &__link {
+          &:hover {}
+          &:active {}
+          &:focus {}
+        }
+      }
+    }
+  }
