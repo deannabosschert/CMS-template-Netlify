@@ -1,0 +1,12 @@
+{% for content in pageContents[pageName] %}
+{% if content.headerImage %}
+<header class="c-page-header" style="background-image:url(/assets/images/headers/{{ content.headerImage }})">
+{% else %}
+<header class="c-page-header">
+{% endif %} 
+{% endfor %}
+        {% if pageTitle %}
+        <h1 class="page-header__title">{{ pageTitle }}</h1>
+        {% endif %}
+        <p class="page-header__text">Beleef de Caribische sferen, doe veel activiteiten en verblijf in een fantastisch <a href="" class="page-header__text__link">vakantiehuis</a> om heerlijk te relaxen!</p>
+</header>

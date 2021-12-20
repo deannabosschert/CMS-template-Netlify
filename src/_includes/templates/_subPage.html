@@ -1,0 +1,25 @@
+---
+layout: templates/_base.html
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% include "../partials/_head.html" %}
+</head>
+
+<body class="{{pageName}}">
+  <main>
+    {% include "../components/sections/_page-header.html" %}
+
+    <section class="c-page-content">
+
+    {{ content | safe }}
+
+    </section>
+  </main>
+  {% include "../partials/_footer.html" %}
+</body>
+
+</html>
+

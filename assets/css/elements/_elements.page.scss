@@ -32,3 +32,14 @@ body {
   border-bottom: 2px dotted $blue;
   margin-bottom: $spacing-default;
 }
+
+.c-page-content {
+  width: calc(100% + 125px);
+  background-color: $white;
+  padding: $layout-small $layout-medium;
+  box-shadow: $box-shadow-page;
+  background-color: #fff;
+
+  margin-top: -$layout-small;
+  margin-bottom: $layout-default;
+}

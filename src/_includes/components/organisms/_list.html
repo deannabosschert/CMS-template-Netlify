@@ -1,0 +1,7 @@
+<ul class="c-list">
+    {% for content in pageContents[pageName] %}
+    {% for listItem in content.listItems %}
+    {% include "../molecules/_listItem.html" %}
+        {% endfor %}
+    {% endfor %}
+</ul>

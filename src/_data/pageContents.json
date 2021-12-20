@@ -1,0 +1,61 @@
+{
+  "OntdekCuracao": [{
+    "title": "Ontdek Curaçao",
+    "headerImage": "OntdekCuracao.jpeg",
+    "alineas": [{
+      "heading": "Ontdek Curacao",
+      "text": "Op curacao zijn er talloze diverse activiteiten te doen. Naast het bezoeken van de vele prachtige stranden is er nog zo veel meer wat Curacao te bieden heeft."
+    }, {
+      "heading": "Vele bezienswaardigheden",
+      "text": "De grote bezienswaardigheden zoals een bezoek aan het Christoffelpark met een klim naar de top voor een overgetelijk uitzicht, een bezoek aan het National Sheta boka park of een boottocht naar het idylische Klein Curacao waar je weg droomt in de Aqua blauwe zee is een kleine greep van wat je zeker niet mag missen."
+    }, {
+      "heading": "Cultuur Snuiven",
+      "text": "Een bezoek aan de historische stad Willemstad om jezelf onder te dompelen in de cultuur, de nodige souvenirs te shoppen en de beroemde pontjesbrug te bewonderen, mag ook zeker niet ontbreken op je to do lijstje. Daarnaast beschikt Curacao over vele musea en oude landhuizen met een rijke historie."
+    }, {
+      "heading": "Ontdek Curacao voor de kleintjes",
+      "text": "Ook met kleine kinderen is er voldoende te doen. Een bezoek aan het sea aquarium, de dolphin academy, de ostrich farm of een dagje naar de dierentuin zullen ze fantastisch vinden. En dit is nog maar een kleine opsomming van de diversiteit aan activiteiten op Curacao."
+     }],
+    "listItems": [{
+        "title": "Bezienswaardigheden Curaçao",
+        "image": "ontdek-curacao/bezienswaardigheden"
+      },
+      {
+        "title": "Stranden Curaçao",
+        "image": "ontdek-curacao/stranden"
+      },
+      {
+        "title": "Watersporten Curaçao",
+        "image": "ontdek-curacao/watersporten"
+      },
+      {
+        "title": "Landsporten Curaçao",
+        "image": "ontdek-curacao/landsporten"
+      },
+      {
+        "title": "Evenementen op Curaçao",
+        "image": "ontdek-curacao/evenementen"
+      },
+      {
+        "title": "Musea Curaçao",
+        "image": "ontdek-curacao/musea"
+      },
+      {
+        "title": "Winkelen op Curaçao",
+        "image": "ontdek-curacao/winkelen"
+      },
+      {
+        "title": "Landhuizen Curaçao",
+        "image": "ontdek-curacao/landhuizen"
+      },
+      {
+        "title": "Kidsactiviteiten Curaçao",
+        "image": "ontdek-curacao/kids-activities"
+      },
+      {
+        "title": "Restaurants Curaçao",
+        "image": "ontdek-curacao/restaurants"
+      }
+    ],
+    "cta": "Meer informatie ➝"
+  }]
+}

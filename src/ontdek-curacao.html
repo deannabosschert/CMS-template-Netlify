@@ -1,0 +1,24 @@
+---
+layout: templates/_subPage.html
+pageName: 'OntdekCuracao'
+title: 'Ontdek Curacao'
+metaDescription: 'Ontdek Curacao - Er is zoveel te doen op Curacao, ontdek het hier | Holiday Rentals Curacao'
+path: ontdekcuracao
+pageTitle: 'Ontdek Curacao'
+breadcrumbs: [{ name: "🏠️", link: "/" }, { name: "Ontdek Curacao", link: "/ontdekcuracao/"}]
+---
+
+    {% include "./_includes/components/molecules/_breadcrumbs.html" %}
+
+    {% for content in pageContents[pageName] %}
+    {% for alinea in content.alineas %}
+      {% include "./_includes/components/molecules/_alinea.html" %}
+        {% endfor %}
+    {% endfor %}
+
+    {% include "./_includes/components/organisms/_list.html" %}
+
+
+  
+
+

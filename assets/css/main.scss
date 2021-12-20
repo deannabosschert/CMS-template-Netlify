@@ -22,6 +22,7 @@
 
 
 // sections
+@import "components/sections/sections.page-header";
 @import "components/sections/sections.footer-bottom";
 @import "components/sections/sections.footer-top";
 @import "components/sections/sections.hero-header";
@@ -37,6 +38,7 @@
 @import "components/organisms/organisms.featured";
 @import "components/organisms/organisms.home-area";
 @import "components/organisms/organisms.hrc-plus";
+@import "components/organisms/organisms.list";
 @import "components/organisms/organisms.more-houses";
 @import "components/organisms/organisms.nav-wijken";
 @import "components/organisms/organisms.ons-team";
@@ -46,9 +48,12 @@
 
 
 // molecules
+@import "components/molecules/molecules.alinea";
 @import "components/molecules/molecules.betaalmogelijkheden";
+@import "components/molecules/molecules.breadcrumbs";
 @import "components/molecules/molecules.eigenaren-panel";
 @import "components/molecules/molecules.house-card";
+@import "components/molecules/molecules.listItem";
 @import "components/molecules/molecules.search-bar";
 @import "components/molecules/molecules.social-icons";
 
@@ -56,7 +61,6 @@
 @import "components/atoms/atoms.favorite-button";
 @import "components/atoms/atoms.readmore-button";
 @import "components/atoms/atoms.arrow-right";
-
 
 // UTILITIES
 @import "utilities/utilities.hide";

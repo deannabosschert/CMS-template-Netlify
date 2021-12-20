@@ -1,0 +1,10 @@
+{% if listItem.image %}
+<li class="c-listItem" style="background-image:url(/assets/images/{{ listItem.image }}.jpeg)">
+  {% else %}
+<li class="c-listItem">
+  {% endif %}
+  <h3>{{ listItem.title }}</h3>
+  {% if content.cta %}
+  <a class="c-listItem__link" href="{{ content.cta }}">{{ content.cta }}</a>
+  {% endif %}
+</li>
