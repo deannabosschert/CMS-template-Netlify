@@ -8,8 +8,16 @@ pageTitle: 'Ontdek Curacao'
 breadcrumbs: [{ name: "🏠️", link: "/" }, { name: "Ontdek Curacao", link: "/ontdekcuracao/"}]
 ---
 
-    {% include "./_includes/components/sections/_page-header.html" %}
-    {% include "./_includes/components/sections/_page-content.html" %}
+    {% include "./_includes/components/molecules/_breadcrumbs.html" %}
+
+    {% for content in pageContents[pageName] %}
+    {% for alinea in content.alineas %}
+      {% include "./_includes/components/molecules/_alinea.html" %}
+        {% endfor %}
+    {% endfor %}
+
+    {% include "./_includes/components/organisms/_list.html" %}
+
 
   
 
