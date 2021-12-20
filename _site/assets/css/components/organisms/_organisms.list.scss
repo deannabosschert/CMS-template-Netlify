@@ -1,0 +1,8 @@
+.c-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: $spacing-large;
+    justify-content: space-between;
+
+    margin-bottom: $layout-default;
+}

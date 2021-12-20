@@ -1,0 +1,51 @@
+  .c-checklist {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      border-radius: $border-radius-def;
+      box-shadow: $box-shadow-default;
+      background-color: $white;
+
+      max-width: 100%;
+      padding: $layout-small;
+      margin-bottom: $layout-large;
+
+      .checklist__background {
+          position: absolute;
+          z-index: -1;
+          right: $layout-medium;
+          max-width: $width-middle;
+          max-height: $width-middle;
+      }
+
+      .checklist__heading {
+          font-size: $h3;
+          text-align: center;
+          margin-bottom: $spacing-huge;
+      }
+
+      .checklist__list {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-gap: 0 $spacing-default;
+
+          &__listItem {
+              text-align: center;
+
+              &__icon {
+                  width: $width-smaller;
+                  height: $height-small;
+                  margin-bottom: $spacing-small;
+              }
+
+              &__heading {
+                  color: $blue;
+                  font-size: $font-heading;
+                  margin-bottom: $spacing-tiny;
+              }
+
+              &__text {}
+          }
+      }
+  }

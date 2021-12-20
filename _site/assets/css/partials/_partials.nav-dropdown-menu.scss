@@ -1,0 +1,46 @@
+  .c-dropdown-menu {}
+
+  .dropdown-menu__section {
+      &__heading {}
+
+      &__subheading {
+        i {}
+    }
+
+      &__list {
+          &__listItem {
+              h3 {}
+
+              a {
+                  .icon-right-open {}
+
+                  &:hover {}
+
+                  &:active {}
+
+                  &:focus {}
+              }
+
+              .menu__label {
+                  .icon-right-open {}
+
+                  &:hover {}
+
+                  &:active {}
+
+                  &:focus {}
+              }
+
+              li {
+                  a {
+                      &:hover {}
+
+                      &:active {}
+
+                      &:focus {}
+                  }
+              }
+          }
+      }
+  }
+  

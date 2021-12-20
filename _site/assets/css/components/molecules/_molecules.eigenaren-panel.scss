@@ -1,0 +1,20 @@
+  .c-eigenaren-panel {
+    .eigenaren-panel__heading {
+      font-size: 1rem;
+      width: 100%;
+      margin-bottom: $spacing-small;
+    }
+
+    .eigenaren-panel__list {
+      &__listItem {
+        a {
+          font-size: $details-size;
+          &:hover {}
+
+          &:active {}
+
+          &:focus {}
+        }
+      }
+    }
+  }

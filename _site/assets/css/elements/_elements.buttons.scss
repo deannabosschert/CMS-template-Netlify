@@ -1,0 +1,38 @@
+.btn--primary {
+  color: $white;
+  background: $blue;
+  border: .1rem solid $blue;
+  border-radius: $border-radius-def;
+  padding: .6rem 1.2rem;
+  transition-property: color, border-color;
+  transition: $trans-def;
+
+  &:hover {
+    color: $blue;
+    border: 1px solid $blue;
+    background-color: $white;
+    cursor: pointer;
+  }
+}
+
+.btn--secondary {
+  color: $blue;
+  background: $white;
+  border: 1px solid $blue;
+  border-radius: $border-radius-def;
+  padding: .6rem 1.2rem;
+  transition-property: color, border-color;
+  transition: $trans-def;
+
+}
+
+
+.icon {
+  color: #54b4cf;
+}
+
+.link-arrow:after {
+    content: "⭢";
+    vertical-align: middle;
+    margin-left: $spacing-small;
+}

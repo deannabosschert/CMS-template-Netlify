@@ -1,0 +1,81 @@
+  .c-cars {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: $spacing-default;
+
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+
+      margin-bottom: $layout-default;
+
+      .cars__heading {
+          grid-column: 1/4;
+          text-align: center;
+          width: 100%;
+      }
+
+      .cars__car {
+          &__link {
+              display: grid;
+              grid-template-columns: 1fr 3fr;
+              grid-template-rows: auto;
+
+              &__image {
+                  grid-column: 1/span 3;
+                  grid-row: 1;
+          
+                  object-fit: cover;
+                  height: $height-large;
+                  width: 100%;
+                  margin-bottom: $spacing-default;
+              }
+
+              &__heading {
+                  grid-row: 2;
+                  grid-column: 2/span 3;
+
+                  font-size: $font-heading;
+                  margin: 0;
+              }
+
+              &__text {
+                  grid-column: 2/span 3;
+                  grid-row: 3;
+                  font-size: $details-size;
+                  margin: 0;
+              }
+
+              &__price {
+                  grid-column: 1/2;
+                  grid-row: 2/span 3;
+                  display: flex;
+                  flex-direction: column;
+                  color: $grey;
+
+                  &__amount {
+                      font-size: $h3;
+                      color: $orange;
+                  }
+              }
+
+              &:hover {}
+
+              &:active {}
+
+              &:focus {}
+          }
+      }
+
+      .cars__readmore {
+          grid-column: 3;
+          display: flex;
+          flex-direction: row;
+
+          &:hover {}
+
+          &:active {}
+
+          &:focus {}
+      }
+  }

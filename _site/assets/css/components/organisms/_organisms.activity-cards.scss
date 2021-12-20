@@ -1,0 +1,94 @@
+.c-activity-cards {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-template-rows: auto;
+    align-content: center;
+    margin-bottom: $layout-medium;
+
+    h2 {
+        grid-row: -1 / -1; // remove element from grid flow; place it on the last row
+    }
+
+    .activity-cards__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-self: stretch;
+
+        height: $height-huge;
+        padding: $spacing-default;      
+        margin: $spacing-default;
+
+        background-size: cover;
+        background-position: 50%;
+        border-radius: $border-radius-def;
+  
+        &__link {
+            max-width: 90%;
+
+            &__heading {
+                color: $white;
+                font-size: $body-size;
+                line-height: $card-line-height;
+                text-shadow: $text-shadow;
+            }
+
+            &:hover {}
+
+            &:active {}
+
+            &:focus {}
+        }
+
+        &__link__link {
+            color: $white;
+
+            &:hover {}
+
+            &:active {}
+
+            &:focus {}
+        }
+
+        &:nth-of-type(1n) {
+            grid-column: 1;
+        }
+
+        &:nth-of-type(2n) {
+            grid-column: 2 / span 2;
+        }
+
+        &:nth-of-type(3n) {
+            grid-column: 4;
+        }
+
+        &:nth-of-type(4n) {
+            grid-column: 1 / span 2;
+        }
+
+        &:nth-of-type(5n) {
+            grid-column: 3 / span 4;
+        }
+
+        // these are just for this template; for the actual site these should be loaded dynamically
+        &:nth-of-type(1) {
+            background-image: url("https://cms.holidayrentalscuracao.nl/assets/uploads/2021/08/blue_bay_golf_and_beach_resort-3.jpg");
+        }
+
+        &:nth-of-type(2) {
+            background-image: url("https://cms.holidayrentalscuracao.nl/assets/uploads/2021/08/grote_groepen_curacao_vakantie_groepsaccomodatie.jpg");
+        }
+
+        &:nth-of-type(3) {
+            background-image: url("https://cms.holidayrentalscuracao.nl/assets/uploads/2021/08/lastminutes_curacao_vakantie.jpg");
+        }
+
+        &:nth-of-type(4) {
+            background-image: url("https://cms.holidayrentalscuracao.nl/assets/uploads/2021/08/luxe_villas_curacao_vakantie_holiday_rentals_curacao.jpg");
+        }
+
+        &:nth-of-type(5) {
+            background-image: url("https://cms.holidayrentalscuracao.nl/assets/uploads/2021/08/HM-zwembad.1.jpg");
+        }
+    }
+}

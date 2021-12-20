@@ -1,0 +1,42 @@
+  .c-more-houses {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 1rem;
+
+      // grid-template-rows: 1fr 1fr;
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: $layout-medium;
+
+      .more-houses__heading {
+          // copy from site
+          min-width: 100%;
+          width: 100%;
+          max-width: 100%;
+          grid-column: 1 / 4;
+          text-align: center;
+          font-weight: $weight-medium;
+          margin-bottom: $spacing-huge;
+      }
+
+      .more-houses__link {
+        grid-column-start: 3;
+        grid-column-end: 3;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-self: flex-end;
+        justify-self: flex-end;
+
+        color: $black;
+        font-size: $font-heading;
+        font-weight: $weight-bold;
+
+          &:hover {}
+
+          &:active {}
+
+          &:focus {}
+      }
+  }
