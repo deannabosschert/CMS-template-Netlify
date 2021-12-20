@@ -1,0 +1,29 @@
+.c-listItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    max-width: 100%;
+    max-height: 100%;
+    width: $width-medium;
+    height: $height-xlarge;
+
+    padding: $spacing-default;
+
+    h3 {
+      color: $white;
+      max-width: 80%;
+      font-size: $font-heading;
+    }
+
+    &__link {
+      color: $white;
+      &:hover {}
+      &:active {}
+      &:focus {}
+    }
+  }
