@@ -33,7 +33,9 @@ module.exports = function (eleventyConfig) {
   });
 
     // Copy Assets Folder to /_site
-  eleventyConfig.addPassthroughCopy('assets')
+  eleventyConfig.addPassthroughCopy('assets/css')
+  eleventyConfig.addPassthroughCopy('assets/images/generic')
+  eleventyConfig.addPassthroughCopy('assets/images/uploads')
 
 
   // Copy favicon to route of /_site
