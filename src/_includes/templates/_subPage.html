@@ -1,0 +1,19 @@
+---
+layout: templates/_base.html
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% include "../partials/_head.html" %}
+</head>
+
+<body class="{{pageName}}">
+  <main>
+    {{ content | safe }}
+  </main>
+  {% include "../partials/_footer.html" %}
+</body>
+
+</html>
+
