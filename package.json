@@ -4,14 +4,14 @@
   "description": "Template of the Holiday Rentals Curacao homepage to use for CMS testing.",
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/deannabosschertac/CMS-template-HRC.git"
+    "url": "git+https://gitlab.com/deannabosschertac/CMS-template-Netlify.git"
   },
   "keywords": [],
   "author": "Deanna Bosschert",
   "bugs": {
-    "url": "https://gitlab.com/deannabosschertac/CMS-template-HRC/issues"
+    "url": "https://gitlab.com/deannabosschertac/CMS-template-Netlify/issues"
   },
-  "homepage": "https://gitlab.com/deannabosschertac/CMS-template-HRC#readme",
+  "homepage": "https://gitlab.com/deannabosschertac/CMS-template-Netlify#readme",
   "scripts": {
     "predev": "rimraf _site",
     "dev:eleventy": "npx @11ty/eleventy --formats=html,njk,ejs,gif,jpg,png,css --serve --port=3000",
@@ -27,27 +27,16 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
-    "@tailwindcss/typography": "^0.3.1",
-    "alpinejs": "^3.2.4",
-    "browser-sync": "^2.26.14",
     "cross-env": "^7.0.3",
-    "cssnano": "^4.1.10",
+    "dotenv": "^8.2.0",
     "html-minifier": "^4.0.0",
-    "js-yaml": "^3.14.0",
-    "luxon": "^1.25.0",
+    "node-fetch": "^2.6.1",
     "npm-run-all": "^4.1.5",
-    "postcss-cli": "^8.3.1",
-    "prismjs": "^1.21.0",
-    "tailwindcss": "^2.0.2"
+    "rimraf": "^2.7.1"
   },
   "dependencies": {
-    "autoprefixer": "^10.1.0",
     "fast-glob": "^3.2.7",
-    "inuitcss": "^6.0.0",
     "node-sass": "^6.0.1",
-    "node-sass-glob-importer": "^5.3.2",
-    "postcss": "^8.2.1",
-    "rimraf": "^2.7.1",
-    "sass-loader": "^12.3.0"
+    "node-sass-glob-importer": "^5.3.2"
   }
 }
