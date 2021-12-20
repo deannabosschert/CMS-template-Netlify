@@ -64,8 +64,9 @@ module.exports = function (eleventyConfig) {
       data: '_data',
       includes: '_includes',
       output: '_site'
-      
     },
+    templateFormats: ['html', 'njk'],
     htmlTemplateEngine: "njk",
+    passthroughFileCopy: true
   };
 };
