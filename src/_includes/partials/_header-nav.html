@@ -12,8 +12,19 @@
         <li class="header-nav__menu__listItem"><a href="">Villa's</a></li>
         <li class="header-nav__menu__listItem"><a href="">Auto huren</a></li>
         <li class="header-nav__menu__listItem"><a href="/ontdek-curacao">Ontdek Curacao</a></li>
+
+    </ul>
+    {% if navigation.items %}
+
+    <ul>
+        {% for item in navigation.items %}
+            <li class="nav__item mr-3">
+                <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="{{ item.url }}">{{ item.text }}</a>
+            </li>
+        {% endfor %}
     </ul>
 
+{% endif %}
     {% include "../components/organisms/_search-block.html" %}
 
 </nav>
