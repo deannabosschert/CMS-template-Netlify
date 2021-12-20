@@ -10,7 +10,13 @@ layout: templates/_base.html
 
 <body class="{{pageName}}">
   <main>
+    {% include "../components/sections/_page-header.html" %}
+
+    <section class="c-page-content">
+
     {{ content | safe }}
+
+    </section>
   </main>
   {% include "../partials/_footer.html" %}
 </body>

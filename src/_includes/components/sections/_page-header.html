@@ -1,4 +1,10 @@
+{% for content in pageContents[pageName] %}
+{% if content.headerImage %}
+<header class="c-page-header" style="background-image:url(/assets/images/headers/{{ content.headerImage }})">
+{% else %}
 <header class="c-page-header">
+{% endif %} 
+{% endfor %}
         {% if pageTitle %}
         <h1 class="page-header__title">{{ pageTitle }}</h1>
         {% endif %}
