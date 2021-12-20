@@ -1,0 +1,46 @@
+{
+  "OntdekCuracao": [{
+    "listItems": [{
+        "title": "Bezienswaardigheden Curaçao",
+        "image": "ontdek-curacao/bezienswaardigheden"
+      },
+      {
+        "title": "Stranden Curaçao",
+        "image": "ontdek-curacao/stranden"
+      },
+      {
+        "title": "Watersporten Curaçao",
+        "image": "ontdek-curacao/watersporten"
+      },
+      {
+        "title": "Landsporten Curaçao",
+        "image": "ontdek-curacao/landsporten"
+      },
+      {
+        "title": "Evenementen op Curaçao",
+        "image": "ontdek-curacao/evenementen"
+      },
+      {
+        "title": "Musea Curaçao",
+        "image": "ontdek-curacao/musea"
+      },
+      {
+        "title": "Winkelen op Curaçao",
+        "image": "ontdek-curacao/winkelen"
+      },
+      {
+        "title": "Landhuizen Curaçao",
+        "image": "ontdek-curacao/landhuizen"
+      },
+      {
+        "title": "Kidsactiviteiten Curaçao",
+        "image": "ontdek-curacao/kids-activities"
+      },
+      {
+        "title": "Restaurants Curaçao",
+        "image": "ontdek-curacao/restaurants"
+      }
+    ],
+    "cta": "Meer informatie ➝"
+  }]
+}
