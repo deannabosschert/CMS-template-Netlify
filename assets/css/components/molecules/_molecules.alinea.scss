@@ -1,0 +1,13 @@
+
+  .page-content__article {
+      margin-bottom: $spacing-large;
+      max-width: $width-xlarge;
+
+    &__heading {
+        font-weight: $weight-bold;
+        font-size: $font-heading;
+        margin-bottom: $spacing-small;
+    }
+    &__text {
+    }
+  }
