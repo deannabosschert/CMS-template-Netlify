@@ -1,0 +1,10 @@
+---
+items:
+  - text: Appartementen
+    url: "/appartementen"
+  - text: Villa's
+    url: "/villas"
+  - text: Auto's huren
+    url: "/autos-huren"
+  - text: Ontdek Curacao
+    url: "/ontdek-curacao"
