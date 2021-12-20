@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Atoms/icons/message</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.63816636,6.5 L11.8585176,11.1710606 C11.9437637,11.2295761 12.0562363,11.2295761 12.1955797,11.1372191 L20.3616602,6.5 L3.63816636,6.5 Z M20.5,8.14609741 L12.9903771,12.4077407 C12.3936542,12.8173493 11.6063458,12.8173493 11.0637201,12.4415822 L3.5,8.14642163 L3.5,17.5 L20.5,17.5 L20.5,8.14609741 Z M3.5,5 L20.5,5 C21.3284271,5 22,5.67157288 22,6.5 L22,17.5 C22,18.3284271 21.3284271,19 20.5,19 L3.5,19 C2.67157288,19 2,18.3284271 2,17.5 L2,6.5 C2,5.67157288 2.67157288,5 3.5,5 Z" id="path-1"></path>
+    </defs>
+    <g id="Atoms/icons/message" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="message" fill="#9B9B9B" fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>
