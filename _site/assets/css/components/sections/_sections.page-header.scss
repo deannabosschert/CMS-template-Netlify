@@ -1,0 +1,29 @@
+  .c-page-header {
+      width: 100vw;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: $height-middle calc((100vw - 1080px) / 2 + 75px);
+      height: $height-huge;
+
+      .page-header__title {
+          color: $white;
+          max-width: $width-page;
+          text-shadow: $heading-shadow;
+      }
+  }
+
+  .page-header__text {
+      color: $white;
+      font-size: $font-heading;
+      text-shadow: $heading-shadow;
+      max-width: $width-large;
+
+      &__link {
+          &:hover {}
+
+          &:active {}
+
+          &:focus {}
+      }
+  }

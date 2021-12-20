@@ -1,0 +1,169 @@
+// @font-face {
+//   font-family: 'hrc-icons';
+//   src: url('/assets/fonts/icons/hrc-icons.eot');
+//   src: url('/assets/fonts/icons/hrc-icons.eot') format('embedded-opentype'),
+//        url('/assets/fonts/icons/hrc-icons.woff2') format('woff2'),
+//        url('/assets/fonts/icons/hrc-icons.woff') format('woff'),
+//        url('/assets/fonts/icons/hrc-icons.ttf') format('truetype'),
+//        url('/assets/fonts/icons/hrc-icons.svg') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+//   font-display: swap;
+// }
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'hrc-icons';
+    src: url('../font/hrc-icons.svg?56115084#hrc-icons') format('svg');
+  }
+}
+*/
+
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "hrc-icons";
+  font-style: normal;
+  font-weight: normal;
+  // speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-check-empty:before { content: '\e800'; } /* '' */
+.icon-landscape:before { content: '\e801'; } /* '' */
+.icon-heart-empty:before { content: '\e802'; } /* '' */
+.icon-star:before { content: '\e803'; } /* '' */
+.icon-star-empty:before { content: '\e804'; } /* '' */
+.icon-expand-more:before { content: '\e805'; } /* '' */
+.icon-home:before { content: '\e806'; } /* '' */
+.icon-glass:before { content: '\e807'; } /* '' */
+.icon-mail:before { content: '\e808'; } /* '' */
+.icon-location:before { content: '\e809'; } /* '' */
+.icon-truck:before { content: '\e80a'; } /* '' */
+.icon-add-fill:before { content: '\e80b'; } /* '' */
+.icon-add:before { content: '\e80c'; } /* '' */
+.icon-arrow:before { content: '\e80d'; } /* '' */
+.icon-comment:before { content: '\e80e'; } /* '' */
+.icon-cross:before { content: '\e80f'; } /* '' */
+.icon-cross-fill:before { content: '\e810'; } /* '' */
+.icon-diamond:before { content: '\e811'; } /* '' */
+.icon-expand-less:before { content: '\e812'; } /* '' */
+.icon-kid:before { content: '\e813'; } /* '' */
+.icon-facebook:before { content: '\e814'; } /* '' */
+.icon-heart:before { content: '\e815'; } /* '' */
+.icon-i:before { content: '\e816'; } /* '' */
+.icon-info:before { content: '\e817'; } /* '' */
+.icon-left:before { content: '\e818'; } /* '' */
+.icon-house:before { content: '\e819'; } /* '' */
+.icon-loader:before { content: '\e81a'; } /* '' */
+.icon-pinterest:before { content: '\e81b'; } /* '' */
+.icon-play:before { content: '\e81c'; } /* '' */
+.icon-process:before { content: '\e81d'; } /* '' */
+.icon-remove:before { content: '\e81e'; } /* '' */
+.icon-right:before { content: '\e81f'; } /* '' */
+.icon-youtube:before { content: '\e820'; } /* '' */
+.icon-twitter:before { content: '\e821'; } /* '' */
+.icon-building:before { content: '\e822'; } /* '' */
+.icon-bed:before { content: '\e823'; } /* '' */
+.icon-share:before { content: '\e824'; } /* '' */
+.icon-search:before { content: '\e825'; } /* '' */
+.icon-ac:before { content: '\e826'; } /* '' */
+.icon-beach-chair:before { content: '\e827'; } /* '' */
+// .icon-#1:before { content: '\e828'; } /* '' */
+.icon-wheelchair:before { content: '\e829'; } /* '' */
+.icon-house-folder-1:before { content: '\e82a'; } /* '' */
+.icon-check-empty-1:before { content: '\e82b'; } /* '' */
+.icon-landscape-1:before { content: '\e82c'; } /* '' */
+.icon-heart-empty-1:before { content: '\e82d'; } /* '' */
+.icon-star-1:before { content: '\e82e'; } /* '' */
+.icon-star-empty-1:before { content: '\e82f'; } /* '' */
+.icon-expand-more-1:before { content: '\e830'; } /* '' */
+.icon-car:before { content: '\e831'; } /* '' */
+.icon-house-folder:before { content: '\e832'; } /* '' */
+.icon-mall:before { content: '\e833'; } /* '' */
+.icon-home-1:before { content: '\e834'; } /* '' */
+.icon-glass-1:before { content: '\e835'; } /* '' */
+.icon-mail-2:before { content: '\e836'; } /* '' */
+.icon-location-1:before { content: '\e837'; } /* '' */
+.icon-food:before { content: '\e838'; } /* '' */
+.icon-mail-1:before { content: '\e839'; } /* '' */
+.icon-water:before { content: '\e83a'; } /* '' */
+.icon-wave:before { content: '\e83b'; } /* '' */
+.icon-contact:before { content: '\e83c'; } /* '' */
+.icon-wifi-1:before { content: '\e83d'; } /* '' */
+.icon-chair:before { content: '\e83e'; } /* '' */
+.icon-truck-1:before { content: '\e83f'; } /* '' */
+.icon-contact-1:before { content: '\e840'; } /* '' */
+.icon-star-half-alt-1:before { content: '\e841'; } /* '' */
+.icon-connection:before { content: '\e842'; } /* '' */
+.icon-renovation:before { content: '\e843'; } /* '' */
+.icon-instagram-1:before { content: '\e844'; } /* '' */
+.icon-male-1:before { content: '\e845'; } /* '' */
+.icon-wifi-2:before { content: '\e846'; } /* '' */
+.icon-ship-1:before { content: '\e847'; } /* '' */
+.icon-exclusive:before { content: '\e880'; } /* '' */
+.icon-ocean-view:before { content: '\e881'; } /* '' */
+.icon-family-villa:before { content: '\e882'; } /* '' */
+.icon-private-pool:before { content: '\e883'; } /* '' */
+.icon-child-friendly:before { content: '\e884'; } /* '' */
+.icon-outdoor-kitchen:before { content: '\e885'; } /* '' */
+.icon-deluxe:before { content: '\e886'; } /* '' */
+.icon-walk-distance-beach:before { content: '\e887'; } /* '' */
+.icon-secured-resort:before { content: '\e888'; } /* '' */
+.icon-huge-pool:before { content: '\e889'; } /* '' */
+.icon-space:before { content: '\e88a'; } /* '' */
+.icon-outdoor-bar:before { content: '\e88b'; } /* '' */
+.icon-privacy:before { content: '\e88c'; } /* '' */
+.icon-nature-beaches:before { content: '\e88d'; } /* '' */
+.icon-mini-resort:before { content: '\e88e'; } /* '' */
+.icon-pool:before { content: '\e88f'; } /* '' */
+.icon-own-dock:before { content: '\e890'; } /* '' */
+.icon-sharp-prices:before { content: '\e891'; } /* '' */
+.icon-view:before { content: '\e892'; } /* '' */
+.icon-tropical-garden:before { content: '\e893'; } /* '' */
+.icon-jacuzzi:before { content: '\e894'; } /* '' */
+.icon-wheelchair-friendly:before { content: '\e895'; } /* '' */
+.icon-unique-place:before { content: '\e896'; } /* '' */
+.icon-apartment:before { content: '\e897'; } /* '' */
+.icon-gym:before { content: '\e898'; } /* '' */
+.icon-airco:before { content: '\e899'; } /* '' */
+.icon-oceanfront:before { content: '\e89a'; } /* '' */
+.icon-City-centre:before { content: '\e89b'; } /* '' */
+.icon-golf-course:before { content: '\e89c'; } /* '' */
+.icon-pump-station:before { content: '\e89d'; } /* '' */
+.icon-snorkling:before { content: '\e89e'; } /* '' */
+.icon-gear:before { content: '\e89f'; } /* '' */
+.icon-star-half-alt:before { content: '\f123'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-male:before { content: '\f183'; } /* '' */
+.icon-child:before { content: '\f1ae'; } /* '' */
+.icon-wifi:before { content: '\f1eb'; } /* '' */
+.icon-ship:before { content: '\f21a'; } /* '' */
+.icon-menu { background-image: url('~assets/images/menu.svg'); background-repeat: no-repeat; background-position: center center}

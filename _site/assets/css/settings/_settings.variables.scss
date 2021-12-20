@@ -1,0 +1,120 @@
+///* ========================================================================
+//   #GLOBAL
+//   ======================================================================== */
+
+// The global settings file contains any project-wide variables; things that
+// need to be made available to the entire codebase.
+
+$blue-light: #ebf6fa;
+$blue: #54b4cf;
+$blue-dark: #253a77;
+
+$green: #7ed321;
+$orange: #f9a424;
+$red: #e93b50;
+
+$white: #ffffff;
+$black: #000000;
+$grey-dark: #4a4a4a;
+$grey-darker: #767676;
+$grey: #8e8e8e;
+$grey-light: #e9e9e9;
+$grey-lighter: #e5e5e5;
+$grey-lightest: #f4f4f4;
+$grey-pale: #f8f8f8;
+
+$font-primary: 'Poppins',
+helvetica,
+arial,
+sans-serif;
+$font-secondary: 'RobotoSlab',
+helvetica,
+arial,
+sans-serif;
+
+$render-mode: optimizeLegibility;
+
+$h1: 2.813rem;
+$h2: 1.8rem;
+$h3: 1.563rem;
+$h4: 0.563rem;
+
+$body-size: 1rem;
+$body-line-height: 1.5rem;
+$body-letter-spacing: 0.5px;
+$heading-letter-spacing: 2px;
+
+$card-line-height: 1.3rem;
+
+$font-heading: 1.1rem;
+$details-size: 0.8rem;
+
+
+$weight-light: 300;
+$weight-normal: 400;
+$weight-medium: 500;
+$weight-semibold: 600;
+$weight-bold: 700;
+
+$trans-def: 0.2s ease-in;
+$border-radius-def: 0.2rem;
+$padding-def: 15%;
+$shadow-def: 0 0.5rem 1.7rem rgba(0, 0, 0, 0.09);
+$box-shadow-default: 0 2px 4px 0 rgb(0 0 0 / 20%);
+$box-shadow-card: 0 2px 4px 0 rgb(0 0 0 / 10%);
+$box-shadow-page: 0 0.5rem 1.7rem rgb(0 0 0 / 9%);
+
+$text-shadow: 1px 1px 1px rgb(0 0 0 / 50%);
+$heading-shadow: 0 0 18px $black;
+
+// usually for (small) margins
+$spacing-tiny: 5px;
+$spacing-small: 10px;
+$spacing-default: 15px;
+$spacing-medium: 25px;
+$spacing-large: 30px;
+$spacing-huge: 40px;
+
+// usually for paddings
+$layout-tiny: 12.5px;
+$layout-smaller: 25px;
+$layout-small: 50px;
+$layout-default: 100px;
+$layout-middle: 125px;
+$layout-medium: 150px;
+$layout-large: 200px;
+$layout-huge: 300px;
+
+$width-tiny: 25px;
+$width-smaller: 50px;
+$width-small: 100px;
+$width-default: 200px;
+$width-medium: 400px;
+$width-middle: 500px;
+$width-large: 600px;
+$width-xlarge: 800px;
+$width-huge: 1000px;
+$width-hughmongus: 1250px;
+$width-page: 1080px;
+
+$height-tiny: 25px;
+$height-smaller: 37.5px;
+$height-small: 50px;
+$height-default: 75px;
+$height-middle: 87.5px; // mostly for the calendar.
+$height-medium: 100px;
+$height-large: 150px;
+$height-xlarge: 200px;
+$height-huge: 300px;
+$height-hughmongus: 400px;
+$height-gigantic: 500px;
+
+
+
+
+@media all and (min-width: 40rem) {
+  $h1: 4.375rem;
+  $h2: 1.8rem;
+  $h3: 1.2rem;
+  $h4: 0.75rem;
+}

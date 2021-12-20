@@ -1,0 +1,44 @@
+
+  .c-breadcrumbs {
+    width: 100%;
+    margin: $spacing-large 0;
+  }
+  
+  .breadcrumbs__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: fit-content;
+  }
+  
+  .breadcrumbs__list__listItem {
+    padding: 0 $layout-tiny;
+  
+    &::after {
+      content: ">";
+      margin-left: $spacing-default
+    }
+  
+    &:first-child {
+      padding-left: 0;
+      margin-left: 0;
+    }
+  
+    &:last-child {
+      a {
+        color: $blue;
+      }
+  
+      &::after {
+        content: "";
+        margin: 0;
+      }
+    }
+  }
+  
+  .breadcrumbs__list__listItem__link {
+    color: $blue;
+    font-weight: $weight-light;
+    letter-spacing: $body-letter-spacing;
+  }
+    

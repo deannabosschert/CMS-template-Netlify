@@ -1,0 +1,15 @@
+.c-woningen-cards {
+    .u-text-invisible {}
+
+    .woningen-cards__article {
+        &__link {
+            h4 {}
+
+            &:hover {}
+
+            &:active {}
+
+            &:focus {}
+        }
+    }
+}

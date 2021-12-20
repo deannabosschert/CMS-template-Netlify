@@ -1,0 +1,135 @@
+.c-footer-bottom {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    grid-template-rows: 1fr 1fr $height-small;
+    grid-gap: $spacing-large;
+
+
+    .footer-bottom__overig {
+        grid-column: 1;
+        grid-row: 1 / span 2;
+    }
+
+    .footer-bottom__nav {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        // grid-template-rows: 1fr 1fr;
+        justify-content: flex-start;
+        grid-gap: $spacing-large $spacing-default;
+
+        font-size: $details-size;
+
+        .u-text-invisible {
+            grid-row: none;
+            display: none;
+        }
+
+        article {
+            max-height: fit-content;
+        }
+
+        &__links {
+            &__heading {
+                font-size: 1rem;
+                width: 100%;
+            }
+
+            &__list {
+                &__listItem {}
+
+                a {
+                    &:hover {}
+
+                    &:active {}
+
+                    &:focus {}
+                }
+            }
+        }
+
+        &__overons {
+            &__heading {
+                font-size: 1rem;
+                width: 100%;
+            }
+
+            &__list {
+                &__listItem {}
+
+                a {
+                    &:hover {}
+
+                    &:active {}
+
+                    &:focus {}
+                }
+            }
+        }
+
+        &__accomodaties {
+            &__heading {
+                font-size: 1rem;
+                width: 100%;
+            }
+
+            &__list {
+                &__listItem {}
+
+                a {
+                    &:hover {}
+
+                    &:active {}
+
+                    &:focus {}
+                }
+            }
+        }
+    }
+
+    .footer-bottom__voorwaarden {
+        width: 100%;
+        grid-row: 3;
+        grid-column: 1 / span 2;
+        display: flex;
+        justify-content: flex-end;
+        color: $blue;
+        font-size: $details-size;
+
+        .u-text-invisible {
+            display: none;
+        }
+
+        a {
+            margin: 0 $spacing-default;
+        }
+
+        &__autoverhuur {
+            &:hover {}
+
+            &:active {}
+
+            &:focus {}
+        }
+
+        &__vakantiehuizen {
+            &:hover {}
+
+            &:active {}
+
+            &:focus {}
+        }
+
+        &__disclaimer {
+            &:hover {}
+
+            &:active {}
+
+            &:focus {}
+        }
+
+        &__copyright {}
+    }
+}

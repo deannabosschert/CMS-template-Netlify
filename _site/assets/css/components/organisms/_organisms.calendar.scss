@@ -1,0 +1,102 @@
+  .c-calendar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    position: absolute;
+    bottom: -43.75px;  /// $height-middle divided by 2, calc won't work due to the negative value
+    max-width: $width-xlarge;
+    width: 100%;
+    height: $height-middle;
+    background-color: $white;
+    box-shadow: $box-shadow-default;
+    border-radius: $border-radius-def;
+    z-index: 1;
+  }
+
+  .calendar__datepicker {
+    display: flex;
+    flex-direction: column;
+    font-size: $details-size;
+    color: $grey;
+    cursor: pointer;
+    border-bottom: 1px solid $grey-light;
+
+    width: 50%;
+    height: 100%; 
+
+    padding: $layout-tiny $layout-smaller;
+
+    &:hover {}
+
+    &:active {}
+
+    &:focus {}
+  }
+
+  .calendar__datepicker__heading {
+    font-size: $details-size;
+    color: $grey;
+    text-align: left;
+    margin-bottom: $spacing-small;
+    text-transform: uppercase;
+  }
+
+  .calendar-datepicker__button {
+    font-size: $details-size;
+    color: $grey;
+    text-align: left;
+    }
+
+  .calendar__form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 $spacing-medium;
+    grid-template-rows: 1fr 1fr;
+    font-size: $body-size;
+    width: 50%;
+    max-height: 100%;
+  }
+
+  .calendar__form__label {
+    padding-top: $layout-tiny;
+
+    h3 {
+      font-size: $details-size;
+      color: $grey;
+      text-transform: uppercase;
+      margin: 0;
+    }
+  }
+
+  .calendar__form__select {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    // width: 100%;
+    justify-content: space-between;
+    font-weight: $weight-bold;
+    border: none;
+    vertical-align: middle;
+ 
+    align-self: center;
+    align-content: center;
+    padding-bottom: $layout-tiny;
+    option {
+
+    }
+  }
+
+  .calendar__form__button {
+    background-color: $orange;
+    height: 100%;
+    font-weight: $weight-bold;
+    color: $white;
+    padding: $spacing-tiny $spacing-huge;
+    border-radius: 0 $border-radius-def $border-radius-def 0;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+  }

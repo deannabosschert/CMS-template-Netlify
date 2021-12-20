@@ -1,0 +1,27 @@
+  .c-search-bar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      .search-bar__label {
+          #search-input {
+              border: none;
+              border-bottom: 2px solid $grey-light;
+              font-size: $details-size;
+              margin: 0 $spacing-default;
+          }
+      }
+
+      .search-bar__button {
+          margin: 0 $spacing-tiny;
+
+          .icon.icon-search.icon__blue {}
+
+          &:hover {}
+
+          &:active {}
+
+          &:focus {}
+      }
+  }

@@ -1,0 +1,52 @@
+  .c-nav-wijken {
+      grid-column: 1 / span 3;
+      width: 100%;
+
+      .nav-wijken__heading {
+          font-size: 1rem;
+          width: 100%;
+      }
+
+      .nav-wijken__section {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-column-gap: $spacing-default;
+          width: 100%;
+
+          &__article {
+              &__heading {
+                  font-weight: $weight-bold;
+                  font-size: $details-size;
+                  margin-bottom: $spacing-tiny;
+              }
+
+              &__list {
+                  &__listItem {}
+
+                  a {
+                      &:hover {}
+
+                      &:active {}
+
+                      &:focus {}
+                  }
+              }
+          }
+
+          article {
+              .nav-wijken__section__article__heading {}
+
+              .nav-wijken__section__article__list {
+                  &__listItem {}
+
+                  a {
+                      &:hover {}
+
+                      &:active {}
+
+                      &:focus {}
+                  }
+              }
+          }
+      }
+  }

@@ -1,0 +1,59 @@
+  .c-activities {
+    margin-bottom: $layout-default;
+
+    .activities__heading {
+      font-size: $h3;
+      font-weight: $weight-normal;
+      max-width: $width-medium;
+      margin-bottom: $spacing-default;
+    }
+
+    .activities__text {
+      font-weight: $weight-normal;
+      color: $grey;
+      font-size: $details-size;
+      max-width: $width-medium;
+
+      margin-bottom: $spacing-huge;
+    }
+
+    .activities__activity-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      grid-gap: $spacing-huge;
+    }
+
+    .activities__activity {
+      box-shadow: $box-shadow-card;
+      padding-bottom: $layout-smaller;
+
+      &__link {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+ 
+        &__img {
+          width: 100%;
+          max-height: $height-xlarge;
+          object-fit: cover;
+          margin-bottom: $spacing-large;
+        }
+
+        &__heading {
+          padding: 0 $layout-smaller;
+
+        }
+
+        &__text {
+          padding: 0 $layout-smaller;
+
+        }
+
+        &:hover {}
+
+        &:active {}
+
+        &:focus {}
+      }
+    }
+  }
