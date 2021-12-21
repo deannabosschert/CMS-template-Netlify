@@ -1,6 +1,7 @@
 {
-    "layout": "posts",
+    "layout": "templates/_subPage",
     "tags": [
-        "post"
+        "post",
+        "ontdekcuracao"
     ]
 }

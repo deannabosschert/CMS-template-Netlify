@@ -1,5 +1,5 @@
 ---
-header:
+items:
   - text: Appartementen
     url: "/appartementen"
   - text: Villa's
@@ -8,5 +8,3 @@ header:
     url: "/autos-huren"
   - text: Ontdek Curacao
     url: "/ontdek-curacao"    
-  - text: Blog
-    url: "/blog"
