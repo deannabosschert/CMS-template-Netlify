@@ -25,24 +25,6 @@ collections:
         multiple: true
         create: true
         options: ["Tags", "created", "from", "config.yml"]
-  - label: "Ontdek Curacao in HTML"
-    name: "ontdek-curacao-html"
-    folder: "src/posts/ontdek-curacao"
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { label: "Paginatitel", name: "title", widget: "string" }
-      - { label: "Metadescription", name: "description", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "html" }
-      - widget: select
-        label: "tags"
-        name: "tags"
-        multiple: true
-        create: true
-        options: ["Tags", "created", "from", "config.yml"]
   - label: "Settings"
     name: "settings"
     editor:
