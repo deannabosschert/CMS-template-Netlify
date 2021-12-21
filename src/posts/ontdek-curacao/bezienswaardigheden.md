@@ -1,5 +1,6 @@
 ---
 title: Bezienswaardigheden
+cardTitle: Bezienswaardigheden Curaçao
 description: Curacao heeft leuke en interessante bezienswaardigheden. We hebben een top 10 voor jou geselecteerd van degenen die je zeker niet mag missen.
 author: Deanna
 date: 2021-12-20
