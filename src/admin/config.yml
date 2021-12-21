@@ -34,7 +34,7 @@ collections:
         name: "items"
         file: "src/_data/navigation.yaml"
         fields:
-          - label: Nav Items
+          - label: Header navigation items
             name: items
             widget: list
             allow_add: false
