@@ -135,7 +135,9 @@ h4 {
   color: $grey-dark;
 }
 
-p, i {
+p, i, li {
+  font-size: $body-size;
+  font-weight: $weight-normal;
   letter-spacing: $body-letter-spacing;
   line-height: $body-line-height;
 }

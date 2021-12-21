@@ -1,10 +1,20 @@
-{% if listItem.image %}
-<li class="c-listItem" style="background-image:url(/assets/images/generic/{{ listItem.image }}.jpeg)">
+{% if post.data.img %}
+<li class="c-listItem" style="background-image:url(/assets/images/generic/{{ post.data.parent }}/{{ post.data.img }})">
   {% else %}
 <li class="c-listItem">
   {% endif %}
-  <h3>{{ listItem.title }}</h3>
-  {% if content.cta %}
-  <a class="c-listItem__link" href="/ontdek-curacao{{ listItem.link }}">{{ content.cta }}</a>
-  {% endif %}
+  <h3>
+    {% if post.data.title %}
+    {{ post.data.title }}
+    {% else %}
+    Untitled
+    {% endif %}
+  </h3>
+  <a class="c-listItem__link" href="{{ post.url | url }}">
+    {% if post.data.cta %}
+    {{ post.data.cta }}
+    {% else %}
+    Read more →
+    {% endif %}
+  </a>
 </li>

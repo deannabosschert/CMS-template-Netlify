@@ -1,7 +1,6 @@
 <ul class="c-list">
-    {% for content in pageContents[pageName] %}
-    {% for listItem in content.listItems %}
+    {% set postslist = collections.post %}
+    {% for post in postslist %}
     {% include "../molecules/_listItem.html" %}
-        {% endfor %}
     {% endfor %}
 </ul>
