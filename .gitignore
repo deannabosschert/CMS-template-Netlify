@@ -2,4 +2,5 @@
 node_modules/
 .env
 images/all
-_site
+_site/
+/_site
