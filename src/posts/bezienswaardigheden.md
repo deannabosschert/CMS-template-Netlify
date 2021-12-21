@@ -4,7 +4,8 @@ description: Curacao heeft leuke en interessante bezienswaardigheden. We hebben 
 author: Deanna
 date: 2021-12-20
 tags:
-  - created
+  - post
+  - ontdekcuracao
 ---
 # Top 10 bezienswaardigheden op Curacao
 

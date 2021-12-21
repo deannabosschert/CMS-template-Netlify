@@ -26,10 +26,13 @@ module.exports = function (eleventyConfig) {
     yaml.safeLoad(contents)
   );
 
+  
   // Copy Static Files to /_Site
   eleventyConfig.addPassthroughCopy({
     "./src/admin/config.yml": "./admin/config.yml",
     "./node_modules/alpinejs/dist/cdn.min.js": "./static/js/alpine.js",
+    "./node_modules/prismjs/themes/prism-tomorrow.css":
+      "./static/css/prism-tomorrow.css",
   });
 
     // Copy Assets Folder to /_site
@@ -40,6 +43,7 @@ module.exports = function (eleventyConfig) {
 
   // Copy favicon to route of /_site
   eleventyConfig.addPassthroughCopy("./src/favicon.ico");
+
 
   // Minify HTML
   eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
@@ -61,12 +65,7 @@ module.exports = function (eleventyConfig) {
   return {
     dir: {
       input: "src",
-      data: '_data',
-      includes: '_includes',
-      output: '_site'
     },
-    templateFormats: ['html', 'njk'],
     htmlTemplateEngine: "njk",
-    passthroughFileCopy: true
   };
 };
