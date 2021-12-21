@@ -44,7 +44,7 @@ collections:
         create: true
         options: ["Tags", "created", "from", "config.yml"]
   - label: "Ontdek Curacao in HTML"
-    name: "ontdek-curacao"
+    name: "ontdek-curacao-html"
     folder: "src/posts/ontdek-curacao"
     create: true
     editor:
