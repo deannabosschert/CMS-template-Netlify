@@ -1,8 +1,5 @@
 {% set pageData = collections.stranden %}
 
-<h1>test</h1>
-<h1>{{ type }} {{ keyword }}</h1>
-
 {% for page in pageData %}
 <h1 class="typekeyword">{{ type }} {{ keyword }}</h1>
 {% if page.data.headerImage %}

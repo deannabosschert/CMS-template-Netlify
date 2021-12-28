@@ -4,16 +4,21 @@
             class="header-nav__logo__rentals">Rentals</span><span class="header-nav__logo__curacao">Curacao</span>
     </a>
     <ul class="header-nav__menu">
+        {% if navigation.header %}
+        {% for item in navigation.header %}
+
+        {% if item.dropdown %}
         <li class="header-nav__menu__listItem">
-            <a href="">Vakantiehuizen </a><button>v</button>
+            <a href="{{ item.url | url }}">{{ item.text }}</a> <button>v</button>
             {% include "./_nav-dropdown-menu.html" %}
         </li>
+        {% else %}
 
-        {% if navigation.items %}
-        {% for item in navigation.items %}
         <li class="header-nav__menu__listItem">
             <a href="{{ item.url }}">{{ item.text }}</a>
         </li>
+
+        {% endif %}
         {% endfor %}
         {% endif %}
     </ul>
