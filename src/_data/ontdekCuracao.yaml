@@ -2,12 +2,12 @@
 pagedata:
     title: Ontdek Curaçao
     keyword: ontdek curaçao
-    url: "/ontdek-curacao"
-    headerImage: ontdek-curacao.jpeg
-    cta: Meer informatie ➝
     parents:  
         - text: 🏠️
           url: /
+    url: "ontdek-curacao/"
+    headerImage: ontdek-curacao.jpeg
+    cta: Meer informatie ➝
     subpages:
          - title: Bezienswaardigheden
            keyword: bezienswaardigheden

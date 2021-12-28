@@ -1,12 +1,12 @@
 ---
 layout: templates/_page.html
+permalink: "{{ ontdekCuracao.pagedata.url }}"
+
 ---
+    {% set pagedata = ontdekCuracao.pagedata %}
 
     {% include "../../_includes/components/molecules/_breadcrumbs.html" %}
-
-    {% for content in pages.ontdekCuracao["ontdek-curacao"] %}
-    <h1  class="pagina">{{ content.title }}</h1>
-    {% endfor %}
+    
 
     {% for content in pageContents["ontdek-curacao"] %}
     {% for alinea in content.alineas %}
