@@ -15,11 +15,10 @@
 
 // COMPONENTS
 // partials
-@import "partials/partials.footer";
-@import "partials/partials.header";
-@import "partials/partials.header-nav";
-@import "partials/partials.nav-dropdown-menu";
-
+@import "components/partials/partials.footer";
+@import "components/partials/partials.header";
+@import "components/partials/partials.header-nav";
+@import "components/partials/partials.nav-dropdown-menu";
 
 // sections
 @import "components/sections/sections.page-header";
@@ -64,3 +63,12 @@
 
 // UTILITIES
 @import "utilities/utilities.hide";
+
+
+// PAGE-SPECIFIC STYLING
+@import "pages/pages.home";
+@import "pages/pages.subpage";
+@import "pages/pages.detail";
+
+// CMS STYLING FOR PREVIEW
+@import "admin/admin.preview";

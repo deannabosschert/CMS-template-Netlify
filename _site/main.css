@@ -2073,4 +2073,8 @@ img {
   margin: 0;
 }
 
+#preview-pane {
+  border: 1px solid lightpink;
+}
+
 /*# sourceMappingURL=main.css.map */

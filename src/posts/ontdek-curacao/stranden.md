@@ -1,16 +1,12 @@
 ---
+keyword: stranden
 title: Stranden
 cardTitle: Stranden Curaçao
-description: Curacao bezit wel meer dan 30 stranden, genoeg keuze dus! Bekijk hier de top 10 idylische strandjes op het Caribische eiland Curacao
+metaDescription: Curacao bezit wel meer dan 30 stranden, genoeg keuze dus! Bekijk hier de top 10 idylische strandjes op het Caribische eiland Curacao
 cta: Meer informatie ➝
-img: stranden.jpeg
 parent: ontdek-curacao
-author: Deanna
-date: 2021-12-20
-tags:
-  - post
-  - ontdekcuracao
 ---
+
 # De top 10 stranden van Curacao
 ==============================
 
@@ -19,7 +15,7 @@ Curacao heeft wel meer dan 30 stranden en mooie baaien waar je heerlijk kunt rel
 1\. Blue Bay Beach
 ------------------
 
-Een hagelwit strand, wuivende palmbomen welke voor voldoende schaduw zorgen, happy hours, beach bar, restaurants, dive shop en 2 mooie koraalriffen voor de deur waar je de prachtige onderwaterwereld kunt bewonderen. Je vindt op Blue Bay diverse fasciliteiten:![blue bay golf and beach resort curacao](https://cms.holidayrentalscuracao.nl/assets/uploads/2021/09/blue_bay_golf_and_beach_resort-300x300.jpg)
+Een hagelwit strand, wuivende palmbomen welke voor voldoende schaduw zorgen, happy hours, beach bar, restaurants, dive shop en 2 mooie koraalriffen voor de deur waar je de prachtige onderwaterwereld kunt bewonderen. Je vindt op Blue Bay diverse faciliteiten:![blue bay golf and beach resort curacao](https://cms.holidayrentalscuracao.nl/assets/uploads/2021/09/blue_bay_golf_and_beach_resort-300x300.jpg)
 
 * Ligbedjes
 * Schaduw van de palmbomen
