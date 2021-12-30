@@ -4,3 +4,5 @@ node_modules/
 images/all
 _site/
 /_site
+src/admin/ontdekCuracao.json
+ontdekCuracao.json
