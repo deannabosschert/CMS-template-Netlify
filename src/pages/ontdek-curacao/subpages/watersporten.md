@@ -1,9 +1,7 @@
 ---
 keyword: watersporten
 title: Watersporten
-cardTitle: Watersporten Curaçao
 metaDescription: Ontdek de diverse watersporten op Curacao zoals zeilen, kiten, duiken, snorkelen, fly boarden, windsurfen, jetskieen of waterskien
-cta: Meer informatie ➝
 parent: ontdek-curacao
 ---
 

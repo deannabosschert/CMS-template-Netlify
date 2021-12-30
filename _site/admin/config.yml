@@ -9,7 +9,7 @@ public_folder: "/assets/images/uploads" # Media files will be served from /asset
 collections:
   - label: "Ontdek Curacao"
     name: "ontdek-curacao"
-    folder: "src/posts/ontdek-curacao"
+    folder: "src/pages/ontdek-curacao"
     create: true
     editor:
       preview: true
@@ -18,7 +18,7 @@ collections:
       - { label: "Metadescription", name: "description", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "html" }
       - widget: select
         label: "tags"
         name: "tags"
@@ -52,13 +52,13 @@ collections:
   - label: "Pages"
       name: "pages"
       editor:
-        preview: false
+        preview: true
       files:
       - label: "Ontdek Curacao"
         name: "ontdek-curacao"
-        file: "src/_data/users/ontdek-curacao.yaml"
+        file: "src/_data/pages/ontdekCuracao.yaml"
         fields:
-          - label: Ontdek Curacao content dingen
+          - label: Ontdek Curacao content
             name: content
             fields:
               - { label: "Paginatitel", name: "title", widget: "string" }
@@ -72,10 +72,3 @@ collections:
                 multiple: true
                 create: true
                 options: ["Tags", "created", "from", "config.yml"]
-      - label: "Meta Settings"
-        name: "settings"
-        file: "src/_data/settings.yaml"
-        fields:
-          - { label: Name, name: name, widget: string }
-          - { label: Author, name: author, widget: string }
-          - { label: URL, name: url, widget: string }

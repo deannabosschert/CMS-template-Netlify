@@ -2,18 +2,23 @@
 layout: templates/_page.html
 pageName: ontdekCuracao
 ---
+{%- from "system/component.njk" import component -%} <!-- todo: figure out how to put this in _base layout-->
 
-{% include "../../_includes/components/molecules/_breadcrumbs.html" %}
+  
+{{ component('molecules', '_breadcrumbs', {
+  parents: pages[pageName].pagedata.parents,
+  title: pages[pageName].pagedata.title,
+  url: pages[pageName].pagedata.url
+}) }}
 
-    {%- from "system/component.njk" import component -%} <!-- todo: figure out how to put this in _base layout-->
 
-    {% for content in pageContents["ontdek-curacao"] %}
-    {% for alinea in content.alineas %}
-      {% include "../../_includes/components/molecules/_alinea.html" %}
-        {% endfor %}
+
+    {% for alinea in pages[pageName].content.alineas %}
+      {{ component('molecules', '_alinea', {
+        heading: alinea.heading,
+        text: alinea.text
+      }) }}
     {% endfor %}
-
-    {% include "../../_includes/components/organisms/_list.html" %}
 
     
     {{ component('organisms', '_list', {

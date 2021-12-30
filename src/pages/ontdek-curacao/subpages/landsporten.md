@@ -1,9 +1,7 @@
 ---
 keyword: landsporten
 title: Landsporten
-cardTitle: Landsporten Curaçao
 metaDescription: Curacao heeft leuke en interessante bezienswaardigheden. We hebben een top 10 voor jou geselecteerd van degenen die je zeker niet mag missen.
-cta: Meer informatie ➝
 parent: ontdek-curacao
 ---
 

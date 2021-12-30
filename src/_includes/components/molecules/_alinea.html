@@ -1,6 +1,6 @@
 <article class="page-content__article">
-    <h2 class="page-content__article__heading">
-        {{ alinea.heading }}</h2>
-    <p class="page-content__article__text">
-        {{ alinea.text }}</p>
+    {% if params.heading %}
+    <h2 class="page-content__article__heading">{{ params.heading }}</h2>
+    {% endif %}
+    <p class="page-content__article__text">{{ params.text }}</p>
 </article>

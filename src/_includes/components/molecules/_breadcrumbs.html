@@ -1,9 +1,8 @@
 <nav class="c-breadcrumbs">
   <ol class="breadcrumbs__list">
-    {% set pagedata = ontdekCuracao.pagedata %}
-    {% for item in pagedata.parents %}
-    <li class="breadcrumbs__list__listItem"><a class="breadcrumbs__list__listItem__link" href="{{ item.url | url }}">{{ item.text }}</a></li>
+    {% for parent in params.parents %}
+    <li class="breadcrumbs__list__listItem"><a class="breadcrumbs__list__listItem__link" href="{{ parent.url | url }}">{{ parent.text }}</a></li>
     {% endfor %}
-    <li class="breadcrumbs__list__listItem"><a class="breadcrumbs__list__listItem__link" href="{% for item in pagedata.parents %}{{ item.url | url }}{% endfor %}{{ pagedata.url | url }}">{{ pagedata.title }}</a></li>
+    <li class="breadcrumbs__list__listItem"><a class="breadcrumbs__list__listItem__link" href="{% for parent in params.parents %}{{ parent.url | url }}{% endfor %}{{ params.url | url }}">{{ params.title }}</a></li>
   </ol>
 </nav>
