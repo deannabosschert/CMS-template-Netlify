@@ -1,18 +1,18 @@
-{% if post.data.img %}
-<li class="c-listItem" style="background-image:url(/assets/images/generic/{{ post.data.parent }}/{{ post.data.img }})">
+{% if params.img %}
+<li class="c-listItem" style="background-image:url(/assets/images/generic/{{ params.img }})">
   {% else %}
 <li class="c-listItem">
   {% endif %}
   <h3>
-    {% if post.data.title %}
-    {{ post.data.title }}
+    {% if params.title %}
+    {{ params.title }}
     {% else %}
     Untitled
     {% endif %}
   </h3>
-  <a class="c-listItem__link" href="{{ post.url | url }}">
-    {% if post.data.cta %}
-    {{ post.data.cta }}
+  <a class="c-listItem__link" href="{{ params.url | url }}">
+    {% if params.cta %}
+    {{ params.cta }}
     {% else %}
     Read more →
     {% endif %}

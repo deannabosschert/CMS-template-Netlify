@@ -1,0 +1,53 @@
+---
+pagedata:
+    title: Ontdek Curaçao
+    description: Beleef de Caribische sferen, doe veel activiteiten en verblijf in een fantastische vakantiehuis om heerlijk te relaxen!
+    keyword: ontdek curaçao
+    parents:  
+        - text: 🏠️
+          url: /
+    url: "ontdek-curacao/"
+    headerImage: ontdek-curacao.jpeg
+    cta: Meer informatie ➝
+    subpages:
+         - title: Bezienswaardigheden
+           keyword: bezienswaardigheden
+           cardtitle: Bezienswaardigheden Curaçao
+           metaDescription: Curacao heeft leuke en interessante bezienswaardigheden. We hebben een top 10 voor jou geselecteerd van degenen die je zeker niet mag missen."
+         - title: Stranden
+           keyword: stranden
+           cardtitle: Stranden Curaçao
+           metaDescription: Curacao bezit wel meer dan 30 stranden, genoeg keuze dus! Bekijk hier de top 10 idylische strandjes op het Caribische eiland Curacao"     
+         - title: Watersporten
+           keyword: watersporten
+           cardtitle: Watersporten Curaçao
+           metaDescription: Ontdek de diverse watersporten op Curacao zoals zeilen, kiten, duiken, snorkelen, fly boarden, windsurfen, jetskieen of waterskien"     
+         - title: Landsporten
+           keyword: landsporten
+           cardtitle: Landsporten Curaçao
+           metaDescription: Curacao kent diverse landsporten en maak een mooie wandeling door de bergen, verken de zoutpannen met een mountainbike of ga lekker golfen"
+         - title: Evenementen
+           keyword: evenementen
+           cardtitle: Evenementen op Curacao
+           metaDescription: Op Curacao is er altijd wel wat te doen. Het hele jaar door worden er diverse evenementen georganiseerd. Enjoy your holiday"  
+         - title: Musea
+           keyword: musea
+           cardtitle: Musea Curacao
+           metaDescription: Ontdek diverse musea op Curacao en maak kennis met de geschieden en cultuur %%sep%% Tula, octagon, savonet, kura hulanda of het curacao museum."
+         - title: Winkelen
+           keyword: winkelen
+           cardtitle: Winkelen op Curacao
+           metaDescription: Als je een dagje wilt winkelen op Curacao heb je vele winkelcentra's of ook wel shopping malls genoemd. Bekijk ze alle 10"
+         - title: Landhuizen
+           keyword: landhuizen
+           cardtitle: Landhuizen op Curacao
+           metaDescription: Curacao kent vele landhuizen als brakkeput mei-mei, Chobolobo en dokterstuin. Een aanrader om te bezoeken om de historie te begrijpen"
+         - title: Kids Activiteiten
+           keyword: kids-activiteiten
+           cardtitle: Kids acitviteiten op Curacao
+           metaDescription: Curacao is een ideaal vakantieland met kinderen. Rustige baaien en genoeg kids activiteiten voor het hele gezin"
+         - title: Restaurants
+           keyword: restaurants
+           cardtitle: Restaurants op Curacao
+           metaDescription: Uit eten op Curacao? Dan heb je heel veel keus in restaurants met diverse keukens op bijzonder mooie locaties"
+        

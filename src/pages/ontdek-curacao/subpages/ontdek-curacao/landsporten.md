@@ -1,18 +1,13 @@
 ---
+keyword: landsporten
 title: Landsporten
 cardTitle: Landsporten Curaçao
-description: Curacao heeft leuke en interessante bezienswaardigheden. We hebben een top 10 voor jou geselecteerd van degenen die je zeker niet mag missen.
+metaDescription: Curacao heeft leuke en interessante bezienswaardigheden. We hebben een top 10 voor jou geselecteerd van degenen die je zeker niet mag missen.
 cta: Meer informatie ➝
-img: landsporten.jpeg
 parent: ontdek-curacao
-author: Deanna
-date: 2021-12-20
-tags:
-  - post
-  - ontdekcuracao
 ---
+
 # Landsporten op Curacao
-## markdown
 
 Niet alleen op het water zijn er veel sporten te beoefenen ook op Curacao kun je vele landsporten doen. Heerlijk golven, wandelen, fietsen, mountainbiken of paardrijden bestaat tot de mogelijkheid om lekker te sporten. Zo maak je je vakantie helemaal compleet.
 

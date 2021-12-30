@@ -1,6 +1,12 @@
 <ul class="c-list">
-    {% set postslist = collections.post %}
-    {% for post in postslist %}
-    {% include "../molecules/_listItem.html" %}
+    {% for listItem in params.list %}
+    {{ component('molecules', '_listItem', {
+        title: listItem.title,
+        cardtitle: listItem.cardtitle,
+        keyword: listItem.keyword,
+        cta: params.cta,
+        img: params.parent + listItem.keyword + '.jpeg',
+        url: listItem.keyword
+      }) }}
     {% endfor %}
 </ul>
