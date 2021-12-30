@@ -1,4 +1,4 @@
 {# type equals the folder in /components the component is in. E.g. atoms, molecules, organisms, partials #}
 {%- macro component(type, name, params) -%}
-  {% include "../components/" + type + "/" + name + ".html" ignore missing %}
+  {% include "../components/" + type + "/" + name + ".html" %}
 {%- endmacro -%}
