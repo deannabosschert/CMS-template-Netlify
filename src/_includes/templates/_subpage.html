@@ -6,9 +6,7 @@ eleventyComputed:
   breadcrumbs: [{ name: "🏠️", link: "/" }, { name: "{{ parent }}", link: "{{ parent }}/"}, { name: "{{ title }}", link: "{{ keyword }}/"}]
   path: {{ keyword }}
   tags: 
-  - '{{ type }}'
-  - '{{ keyword }}'
-  - '{{ type }} {{ keyword }}'
+  -  subpage
 ---
 
     {% include "../components/sections/_page-header.html" %}

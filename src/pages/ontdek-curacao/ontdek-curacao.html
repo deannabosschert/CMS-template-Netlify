@@ -13,13 +13,12 @@ pageName: ontdekCuracao
 
 
 
-    {% for content in pageContents["ontdek-curacao"] %}
-    {% for alinea in content.alineas %}
-      {% include "../../_includes/components/molecules/_alinea.html" %}
-        {% endfor %}
+    {% for alinea in pages[pageName].content.alineas %}
+      {{ component('molecules', '_alinea', {
+        heading: alinea.heading,
+        text: alinea.text
+      }) }}
     {% endfor %}
-
-    {% include "../../_includes/components/organisms/_list.html" %}
 
     
     {{ component('organisms', '_list', {
