@@ -1,0 +1,12 @@
+<ul class="c-list">
+    {% for listItem in params.list %}
+    {{ component('molecules', '_listItem', {
+        title: listItem.title,
+        cardtitle: listItem.cardtitle,
+        keyword: listItem.keyword,
+        cta: params.cta,
+        img: params.parent + listItem.keyword + '.jpeg',
+        parent: params.parent
+      }) }}
+    {% endfor %}
+</ul>

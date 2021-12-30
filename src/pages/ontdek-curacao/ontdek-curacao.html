@@ -3,20 +3,9 @@ layout: templates/_page.html
 pageName: ontdekCuracao
 ---
 
-{%- extends "templates/_page.html" -%}
-
-
-
-
-
 {% include "../../_includes/components/molecules/_breadcrumbs.html" %}
 
- 
-{%- block content -%}
-
-{{ component('atoms', '_readmore-button', {
-  primary: 'Hello'
-}) }}
+    {%- from "system/component.njk" import component -%} <!-- todo: figure out how to put this in _base layout-->
 
     {% for content in pageContents["ontdek-curacao"] %}
     {% for alinea in content.alineas %}
@@ -24,9 +13,14 @@ pageName: ontdekCuracao
         {% endfor %}
     {% endfor %}
 
-    {% include "../../_includes/components/organisms/_subpages-list.html" %}
+    {% include "../../_includes/components/organisms/_list.html" %}
 
-    {%- endblock -%}
+    
+    {{ component('organisms', '_list', {
+      list: pages[pageName].pagedata.subpages,
+      cta: pages[pageName].pagedata.cta,
+      parent: pages[pageName].pagedata.url
+    }) }}
 
   
 
