@@ -1,14 +1,8 @@
 ---
 layout: templates/_base.html
 type: post
-eleventyComputed:
-  headerImage: "{{ keyword }}.jpeg"
-  breadcrumbs: [{ name: "🏠️", link: "/" }, { name: "{{ parent }}", link: "{{ parent }}/"}, { name: "{{ title }}", link: "{{ keyword }}/"}]
-  path: {{ keyword }}
-  tags: 
-  -  subpage
+permalink: "/{{ parent }}/{{ keyword }}/"
 ---
-
     {% include "../components/sections/_page-header.html" %}
 
     <section class="c-page-content">

@@ -52,13 +52,13 @@ collections:
   - label: "Pages"
       name: "pages"
       editor:
-        preview: false
+        preview: true
       files:
       - label: "Ontdek Curacao"
         name: "ontdek-curacao"
-        file: "src/_data/users/ontdek-curacao.yaml"
+        file: "src/_data/pages/ontdekCuracao.yaml"
         fields:
-          - label: Ontdek Curacao content dingen
+          - label: Ontdek Curacao content
             name: content
             fields:
               - { label: "Paginatitel", name: "title", widget: "string" }
