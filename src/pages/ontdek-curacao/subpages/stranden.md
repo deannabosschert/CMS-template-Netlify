@@ -1,10 +1,7 @@
 ---
 keyword: stranden
 title: Stranden
-cardTitle: Stranden Curaçao
 metaDescription: Curacao bezit wel meer dan 30 stranden, genoeg keuze dus! Bekijk hier de top 10 idylische strandjes op het Caribische eiland Curacao
-cta: Meer informatie ➝
-pageName: stranden
 parent: ontdek-curacao
 ---
 
