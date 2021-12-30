@@ -1,6 +1,0 @@
-<ul class="c-list">
-    {% set postData = collections['{{ type }} {{ keyword }}'] %}
-    {% for post in postData %}
-    {% include "../molecules/_listItem.html" %}
-    {% endfor %}
-</ul>

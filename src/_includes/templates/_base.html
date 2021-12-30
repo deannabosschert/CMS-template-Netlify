@@ -1,6 +1,6 @@
 ---
-
 ---
+{%- from "system/component.njk" import component -%}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,7 +12,12 @@
 <body class="{{type}}">
   {% include "../partials/_header.html" %}
   <main>
+    {% block content %}
+
     {{ content | safe }}
+
+    {% endblock %}
+
   </main>
   {% include "../partials/_footer.html" %}
 
@@ -27,6 +32,7 @@
       });
     }
   </script>
+
 </body>
 
 </html>

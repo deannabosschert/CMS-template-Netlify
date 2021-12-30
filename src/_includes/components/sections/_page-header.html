@@ -1,17 +1,14 @@
-{% set pageData = collections.stranden %}
+{% set pagedata = pages[pageName].pagedata %}
 
-{% for page in pageData %}
-<h1 class="typekeyword">{{ type }} {{ keyword }}</h1>
-{% if page.data.headerImage %}
-<header class="c-page-header" style="background-image:url(/assets/images/generic/headers/{{ page.data.headerImage }})">
+{% if pagedata.headerImage %}
+<header class="c-page-header" style="background-image:url(/assets/images/generic/headers/{{ pagedata.headerImage }})">
 {% else %}
 <header class="c-page-header">
 {% endif %} 
-{% if page.data.title %}
-  <h1 class="page-header__title">{{ page.data.title }}</h1>
+{% if pagedata.title %}
+  <h1 class="page-header__title">{{ pagedata.title }}</h1>
   {% endif %}
-  {% if page.data.description %}
-  <p class="page-header__text">{{ page.data.description }}</p>
+  {% if pagedata.description %}
+  <p class="page-header__text">{{ pagedata.description }}</p>
   {% endif %}
 </header>
-{% endfor %}

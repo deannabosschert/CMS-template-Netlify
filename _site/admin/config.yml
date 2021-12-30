@@ -56,7 +56,7 @@ collections:
       files:
       - label: "Ontdek Curacao"
         name: "ontdek-curacao"
-        file: "src/_data/pages/ontdek-curacao.yaml"
+        file: "src/_data/users/ontdek-curacao.yaml"
         fields:
           - label: Ontdek Curacao content dingen
             name: content

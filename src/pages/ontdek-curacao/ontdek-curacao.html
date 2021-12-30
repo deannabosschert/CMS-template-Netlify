@@ -1,12 +1,22 @@
 ---
 layout: templates/_page.html
-permalink: "{{ ontdekCuracao.pagedata.url }}"
-
+pageName: ontdekCuracao
 ---
-    {% set pagedata = ontdekCuracao.pagedata %}
 
-    {% include "../../_includes/components/molecules/_breadcrumbs.html" %}
-    
+{%- extends "templates/_page.html" -%}
+
+
+
+
+
+{% include "../../_includes/components/molecules/_breadcrumbs.html" %}
+
+ 
+{%- block content -%}
+
+{{ component('atoms', '_readmore-button', {
+  primary: 'Hello'
+}) }}
 
     {% for content in pageContents["ontdek-curacao"] %}
     {% for alinea in content.alineas %}
@@ -14,8 +24,9 @@ permalink: "{{ ontdekCuracao.pagedata.url }}"
         {% endfor %}
     {% endfor %}
 
-    {% include "../../_includes/components/organisms/_list.html" %}
+    {% include "../../_includes/components/organisms/_subpages-list.html" %}
 
+    {%- endblock -%}
 
   
 
