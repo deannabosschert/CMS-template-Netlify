@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
 # This line should *not* be indented
+local_backend: true # Whether to use the local backend (optional; defaults to false)
 publish_mode: editorial_workflow
 # This line should *not* be indented
 media_folder: "assets/images/uploads" # Media files will be stored in the repo under assets/images/uploads
@@ -25,50 +26,40 @@ collections:
         multiple: true
         create: true
         options: ["Tags", "created", "from", "config.yml"]
+  - label: "Header"
+    name: "header"
+    editor:
+      preview: false
+    files:
+      - label: "Navigation"
+        name: "header"
+        file: "src/_data/navigation.yaml"
+        fields:
+          - label: Navigation items in header
+            name: header
+            widget: list
+            allow_add: true
+            collapsed: true
+            fields:
+              - { label: Title, name: text, widget: string }
+              - { label: URL, name: url, widget: string }
+              - { label: Dropdown items, name: dropdown, widget: list, allow_add: true, collapsed: true, fields: [{ label: Title, name: text, widget: string }, { label: URL, name: url, widget: string }] }
   - label: "Settings"
     name: "settings"
     editor:
       preview: false
     files:
-      - label: "Navigation"
-        name: "items"
-        file: "src/_data/navigation.yaml"
-        fields:
-          - label: Header navigation items
-            name: items
-            widget: list
-            allow_add: false
-            collapsed: false
-            fields:
-              - { label: Title, name: text, widget: string }
-              - { label: URL, name: url, widget: string }
-      - label: "Meta Settings"
-        name: "settings"
+      - label: "Project data"
+        name: "project-data"
         file: "src/_data/settings.yaml"
         fields:
           - { label: Name, name: name, widget: string }
           - { label: Author, name: author, widget: string }
-          - { label: URL, name: url, widget: string }
-  - label: "Pages"
-      name: "pages"
-      editor:
-        preview: true
-      files:
-      - label: "Ontdek Curacao"
-        name: "ontdek-curacao"
-        file: "src/_data/pages/ontdekCuracao.yaml"
+          - { label: URL, name: url, widget: string }     
+      - label: "Meta titles and descriptions"
+        name: "meta-titles-and-descriptions"
+        file: "src/_data/meta-titles-and-descriptions.yaml"
         fields:
-          - label: Ontdek Curacao content
-            name: content
-            fields:
-              - { label: "Paginatitel", name: "title", widget: "string" }
-              - { label: "Metadescription", name: "description", widget: "string" }
-              - { label: "Author", name: "author", widget: "string" }
-              - { label: "Publish Date", name: "date", widget: "datetime" }
-              - { label: "Body", name: "body", widget: "markdown" }
-              - widget: select
-                label: "tags"
-                name: "tags"
-                multiple: true
-                create: true
-                options: ["Tags", "created", "from", "config.yml"]
+          - { label: Meta title, name: title, widget: string }
+          - { label: Meta description, name: description, widget: string }
+    #  TODO: fill in some data in metadatafile and check with netlifycms
