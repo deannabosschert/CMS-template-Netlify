@@ -63,3 +63,4 @@ collections:
           - { label: Meta title, name: title, widget: string }
           - { label: Meta description, name: description, widget: string }
     #  TODO: fill in some data in metadatafile and check with netlifycms
+    # todo: change to pages and subpages like with the header nav
