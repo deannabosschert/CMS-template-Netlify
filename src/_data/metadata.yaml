@@ -1,6 +1,6 @@
 ---
-pages:
-  - url: /
+page:
+  - url: index
     title: Huur een villa of appartement op Curacao bij Holiday Rentals Curacao
     description: Holiday Rentals Curacao | Vakantiehuisje, villa, vakantiewoning of appartement op Curacao huren met SGR en laagste prijs garantie
   - url: ontdek-curacao
@@ -21,7 +21,7 @@ pages:
 
 
 
-subpages:
+subpage:
   - url: bezienswaardigheden
     title: Bezienswaardigheden Curacao   - bekijk de top 10 bezienswaardigheden
     description: Curacao heeft leuke en interessante bezienswaardigheden. We hebben een top 10 voor jou geselecteerd van degenen die je zeker niet mag missen.

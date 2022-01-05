@@ -26,12 +26,12 @@ collections:
         multiple: true
         create: true
         options: ["Tags", "created", "from", "config.yml"]
-  - label: "Header"
-    name: "header"
+  - label: "Navigation"
+    name: "navigation"
     editor:
       preview: false
     files:
-      - label: "Navigation"
+      - label: "Header"
         name: "header"
         file: "src/_data/navigation.yaml"
         fields:
@@ -44,6 +44,37 @@ collections:
               - { label: Title, name: text, widget: string }
               - { label: URL, name: url, widget: string }
               - { label: Dropdown items, name: dropdown, widget: list, allow_add: true, collapsed: true, fields: [{ label: Title, name: text, widget: string }, { label: URL, name: url, widget: string }] }
+  - label: "Metadata"
+    name: "metadata"
+    editor:
+      preview: false
+    files:
+      - label: "Pages"
+        name: "page"
+        file: "src/_data/metadata.yaml"
+        fields:
+          - label: Pages metatitles- and descriptions
+            name: page
+            widget: list
+            allow_add: true
+            collapsed: true
+            fields:
+              - { label: Page url, name: url, widget: select,  allow-add: false, options: [{ label: Url, name: url, widget: string }] }
+              - { label: Metatitle, name: title, widget: string }
+              - { label: Metadescription, name: description, widget: string }
+      - label: "Subpages"
+        name: "subpage"
+        file: "src/_data/metadata.yaml"
+        fields:
+          - label: Subpages metatitles- and descriptions
+            name: subpage
+            widget: list
+            allow_add: true
+            collapsed: true
+            fields:
+              - { label: Subpage url, name: url, widget: select,  allow-add: false, options: [{ label: Url, name: url, widget: string }] }
+              - { label: Metatitle, name: title, widget: string }
+              - { label: Metadescription, name: description, widget: string }        
   - label: "Settings"
     name: "settings"
     editor:
@@ -55,17 +86,4 @@ collections:
         fields:
           - { label: Name, name: name, widget: string }
           - { label: Author, name: author, widget: string }
-          - { label: URL, name: url, widget: string }     
-      - label: "Meta titles and descriptions"
-        name: "meta-titles-and-descriptions"
-        file: "src/_data/meta-titles-and-descriptions.yaml"
-        fields:
-          - label: Meta titles and descriptions
-            name: metadata
-            allow_add: true
-            collapsed: false
-            fields:
-              - { label: Metatitle, name: metatitle, widget: string }
-              - { label: Metadescription, name: metadescription, widget: string } 
-    #  TODO: fill in some data in metadatafile and check with netlifycms
-    # todo: change to pages and subpages like with the header nav
+          - { label: URL, name: url, widget: string }   

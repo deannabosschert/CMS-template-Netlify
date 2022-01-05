@@ -3,6 +3,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="/main.css" />
   <meta name="theme-color" content="#54b4cf">
-  <meta name="description" content="{{ metaDescription }}">
-  <title>{{ title }}</title>
+  {% for pagedata in metadata[pagetype] %}
+  {% if pagedata.url == path or pagedata.url == keyword %}
+  <meta name="description" content="{{ pagedata.title }}">
+  <meta name="title" content="{{ pagedata.description }}">
+  {% endif %}
+  {% endfor %}
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&amp;display=swap" rel="stylesheet">
