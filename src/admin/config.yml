@@ -59,7 +59,7 @@ collections:
             allow_add: true
             collapsed: true
             fields:
-              - { label: Page url, name: url, widget: select,  allow-add: false, options: [{ label: Url, name: url, widget: string }] }
+              - { label: Page URL, name: url, widget: string }
               - { label: Metatitle, name: title, widget: string }
               - { label: Metadescription, name: description, widget: string }
       - label: "Subpages"
@@ -72,7 +72,7 @@ collections:
             allow_add: true
             collapsed: true
             fields:
-              - { label: Subpage url, name: url, widget: select,  allow-add: false, options: [{ label: Url, name: url, widget: string }] }
+              - { label: Subpage URL, name: url, widget: string }
               - { label: Metatitle, name: title, widget: string }
               - { label: Metadescription, name: description, widget: string }        
   - label: "Settings"
