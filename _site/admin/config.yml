@@ -8,9 +8,9 @@ publish_mode: editorial_workflow
 media_folder: "assets/images/uploads" # Media files will be stored in the repo under assets/images/uploads
 public_folder: "/assets/images/uploads" # Media files will be served from /assets/images/uploads
 collections:
-  - label: "Ontdek Curacao"
-    name: "ontdek-curacao"
-    folder: "src/pages/ontdek-curacao"
+  - label: "Ontdek Curacao subpages"
+    name: "subpages"
+    folder: "src/pages/ontdek-curacao/subpages"
     create: true
     editor:
       preview: true
@@ -60,7 +60,7 @@ collections:
   - label: "Metadata"
     name: "metadata"
     editor:
-      preview: true
+      preview: false
     files:
       - label: "Pages"
         name: "page"
