@@ -47,7 +47,7 @@ collections:
   - label: "Metadata"
     name: "metadata"
     editor:
-      preview: false
+      preview: true
     files:
       - label: "Pages"
         name: "page"
