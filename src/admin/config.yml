@@ -60,6 +60,12 @@ collections:
         name: "meta-titles-and-descriptions"
         file: "src/_data/meta-titles-and-descriptions.yaml"
         fields:
-          - { label: Meta title, name: title, widget: string }
-          - { label: Meta description, name: description, widget: string }
+          - label: Meta titles and descriptions
+            name: metadata
+            allow_add: true
+            collapsed: false
+            fields:
+              - { label: Metatitle, name: metatitle, widget: string }
+              - { label: Metadescription, name: metadescription, widget: string } 
     #  TODO: fill in some data in metadatafile and check with netlifycms
+    # todo: change to pages and subpages like with the header nav
