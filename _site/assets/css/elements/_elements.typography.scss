@@ -118,20 +118,24 @@ h6 {
 
 h1 {
   font-size: $h1;
+  line-height: $h1;
   margin-bottom: $spacing-large;
 }
 
 h2 {
   font-size: $h2;
+  line-height: $h2;
   margin-bottom: $spacing-medium;
 }
 
 h3 {
   font-size: $h3;
+  line-height: $h3;
 }
 
 h4 {
   font-size: $h4;
+  line-height: $h4;
   color: $grey-dark;
 }
 
