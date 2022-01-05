@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,11 +8,34 @@
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <!-- styling for the preview editor -->
 </head>
+
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   <script>
     CMS.registerPreviewStyle("/main.css");
   </script>
+  <style>
+    #preview-pane {
+      border: 1px solid lightpink;
+    }
+
+    #nc-root label {
+      background-color: #f9a424;
+      font-weight: 700;
+      color: #ffffff;
+      border-radius: 0 0.2rem 0.2rem 0;
+      height: 100%;
+    }
+
+    #nc-root button {
+      color: #ffffff;
+      background: #54b4cf;
+      border: 0.1rem solid #54b4cf;
+      border-radius: 0.2rem;
+      padding: 0.6rem 1.2rem;
+    }
+  </style>
 </body>
+
 </html>
