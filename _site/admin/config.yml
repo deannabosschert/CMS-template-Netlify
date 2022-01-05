@@ -44,6 +44,19 @@ collections:
               - { label: Title, name: text, widget: string }
               - { label: URL, name: url, widget: string }
               - { label: Dropdown items, name: dropdown, widget: list, allow_add: true, collapsed: true, fields: [{ label: Title, name: text, widget: string }, { label: URL, name: url, widget: string }] }
+      - label: "Footer"
+        name: "footer"
+        file: "src/_data/navigation.yaml"
+        fields:
+          - label: Navigation items in footer
+            name: footer
+            widget: list
+            allow_add: true
+            collapsed: true
+            fields:
+              - { label: Title, name: text, widget: string }
+              - { label: URL, name: url, widget: string }
+              - { label: column1, name: dropdown, widget: list, allow_add: true, collapsed: false, fields: [{ label: Title, name: text, widget: string }, { label: URL, name: url, widget: string }, { label: Items, name: items, widget: list, allow_add: true, collapsed: false, fields: [{ label: Text, name: text, widget: string }, { label: URL, name: url, widget: string }]}] }
   - label: "Metadata"
     name: "metadata"
     editor:
