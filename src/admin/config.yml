@@ -62,9 +62,8 @@ collections:
         fields:
           - label: Meta titles and descriptions
             name: metadata
-            widget: string
             allow_add: true
-            collapsed: true
+            collapsed: false
             fields:
               - { label: Metatitle, name: metatitle, widget: string }
               - { label: Metadescription, name: metadescription, widget: string } 
