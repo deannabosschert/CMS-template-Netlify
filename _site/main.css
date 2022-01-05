@@ -2077,4 +2077,20 @@ img {
   border: 1px solid lightpink;
 }
 
+#nc-root label {
+  background-color: #f9a424;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 0 0.2rem 0.2rem 0;
+  height: 100%;
+}
+
+#nc-root button {
+  color: #ffffff;
+  background: #54b4cf;
+  border: 0.1rem solid #54b4cf;
+  border-radius: 0.2rem;
+  padding: 0.6rem 1.2rem;
+}
+
 /*# sourceMappingURL=main.css.map */
