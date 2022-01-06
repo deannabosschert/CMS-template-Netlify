@@ -33,13 +33,16 @@ collections:
       - label: "Header"
         name: header
         file: "src/_data/navigationHeader.yaml"
-        widget: list
-        allow_add: true
-        collapsed: true
         fields:
-           - { label: Title, name: text, widget: string }
-           - { label: URL, name: url, widget: string }
-           - { label: Dropdown items, name: dropdown, widget: list, allow_add: true, collapsed: true, fields: [{ label: Title, name: text, widget: string }, { label: URL, name: url, widget: string }] }
+          - label: Navigation items in header
+            name: header
+            widget: list
+            allow_add: true
+            collapsed: true
+            fields:
+              - { label: Title, name: text, widget: string }
+              - { label: URL, name: url, widget: string }
+              - { label: Dropdown items, name: dropdown, widget: list, allow_add: true, collapsed: true, fields: [{ label: Title, name: text, widget: string }, { label: URL, name: url, widget: string }] }
       - label: "Footer"
         name: footer
         file: "src/_data/navigationFooter.yaml"
