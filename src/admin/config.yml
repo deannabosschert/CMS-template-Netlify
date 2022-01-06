@@ -32,7 +32,7 @@ collections:
     files:
       - label: "Header"
         name: header
-        file: "src/_data/navigation-header.yaml"
+        file: "src/_data/navigationHeader.yaml"
         fields:
           - label: Navigation items in header
             name: header
@@ -45,7 +45,7 @@ collections:
               - { label: Dropdown items, name: dropdown, widget: list, allow_add: true, collapsed: true, fields: [{ label: Title, name: text, widget: string }, { label: URL, name: url, widget: string }] }
       - label: "Footer"
         name: footer
-        file: "src/_data/navigation-footer.yaml"
+        file: "src/_data/navigationFooter.yaml"
         fields:
           - label: Navigation items in footer
             name: footer
