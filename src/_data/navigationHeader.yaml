@@ -1,17 +1,19 @@
-- text: Vakantiehuizen
-  url: "/vakantiehuizen"
-  dropdown:
-    - text: Wijken op Curacao
-      url: "/wijken-op-curacao"
-    - text: Voorkeuren
-      url: "/voorkeuren"
-    - text: Type woning
-      url: "/type-woning"
-- text: Appartementen
-  url: "/appartementen"
-- text: Villa's
-  url: "/villas"
-- text: Auto's huren
-  url: "/autos-huren"
-- text: Ontdek Curacao
-  url: "/ontdek-curacao"
+---
+header:
+  - text: Vakantiehuizen
+    url: "/vakantiehuizen"
+    dropdown:
+      - text: Wijken op Curacao
+        url: "/wijken-op-curacao"
+      - text: Voorkeuren
+        url: "/voorkeuren"
+      - text: Type woning
+        url: "/type-woning"
+  - text: Appartementen
+    url: "/appartementen"
+  - text: Villa's
+    url: "/villas"
+  - text: Auto's huren
+    url: "/autos-huren"
+  - text: Ontdek Curacao
+    url: "/ontdek-curacao"
