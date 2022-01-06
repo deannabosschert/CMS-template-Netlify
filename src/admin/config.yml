@@ -32,7 +32,7 @@ collections:
     files:
       - label: "Header"
         name: header
-        file: "src/_data/navigation.yaml"
+        file: "src/_data/navigation-header.yaml"
         fields:
           - label: Navigation items in header
             name: header
@@ -45,7 +45,7 @@ collections:
               - { label: Dropdown items, name: dropdown, widget: list, allow_add: true, collapsed: true, fields: [{ label: Title, name: text, widget: string }, { label: URL, name: url, widget: string }] }
       - label: "Footer"
         name: footer
-        file: "src/_data/navigation.yaml"
+        file: "src/_data/navigation-footer.yaml"
         fields:
           - label: Navigation items in footer
             name: footer
@@ -99,7 +99,7 @@ collections:
           - { label: URL, name: url, widget: string }   
       - label: "Color variables"
         name: "color-variables"
-        file: "src/_data/variables.yaml"
+        file: "src/_data/color-variables.yaml"
         fields:
           - { label: Primary color, name: primary, widget: string }
           - { label: Secondary color, name: secondary, widget: string }

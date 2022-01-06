@@ -1,0 +1,39 @@
+text: Wijken Curacao
+url: "/wijken-op-curacao"
+column1:
+    - text: Oost
+      url: "/wijken-op-curacao"
+      items:
+        - text: Cas Grandi
+          url: "cas-grandi"
+        - text: Punda-Pietermaal
+          url: "punda-pietermaal"
+        - text: Jan Thiel
+          url: "jan-thiel"
+        - text: Brakkeput
+          url: "brakkeput"
+        - text: Jan Sofat
+          url: "jan-sofat"
+    - text: Midden
+      url:  /wijken-op-curacao
+      items:
+        - text: Blue Bay
+          url: "blue-bay"
+        - text: Mahaai
+          url: "mahaai"
+        - text: Middelburg
+          url: "middelburg"
+        - text: Willemstad
+          url: "willemstad"
+    - text: Oost
+      url: /wijken-op-curacao
+      items: 
+         - text: Fontein
+           curl: "fontein"
+         - text: Hoogstraten
+           url: "hoogstraten"
+         - text: Kralingen
+           url: "kralingen"
+         - text: Oostkapelle
+           url: "oostkapelle"
+          
