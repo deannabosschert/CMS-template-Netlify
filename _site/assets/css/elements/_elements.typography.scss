@@ -144,4 +144,11 @@ p, i, li {
   font-weight: $weight-normal;
   letter-spacing: $body-letter-spacing;
   line-height: $body-line-height;
+  margin-bottom: $spacing-default;
+}
+
+.frame-content{
+   p, i, li {
+     margin-bottom: $spacing-default;
+   }
 }

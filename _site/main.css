@@ -368,6 +368,11 @@ p, i, li {
   font-weight: 400;
   letter-spacing: 0.5px;
   line-height: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.frame-content p, .frame-content i, .frame-content li {
+  margin-bottom: 15px;
 }
 
 /* ==========================================================================

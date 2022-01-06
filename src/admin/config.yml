@@ -9,7 +9,7 @@ media_folder: "assets/images/uploads" # Media files will be stored in the repo u
 public_folder: "/assets/images/uploads" # Media files will be served from /assets/images/uploads
 collections:
   - label: "Ontdek Curacao subpages"
-    name: "subpages"
+    name: subpages
     folder: "src/pages/ontdek-curacao/subpages"
     create: true
     editor:
@@ -26,12 +26,12 @@ collections:
         create: true
         options: ["ontdek-curacao", "posts", "subpage"]
   - label: "Navigation"
-    name: "navigation"
+    name: navigation
     editor:
       preview: false
     files:
       - label: "Header"
-        name: "header"
+        name: header
         file: "src/_data/navigation.yaml"
         fields:
           - label: Navigation items in header
@@ -44,7 +44,7 @@ collections:
               - { label: URL, name: url, widget: string }
               - { label: Dropdown items, name: dropdown, widget: list, allow_add: true, collapsed: true, fields: [{ label: Title, name: text, widget: string }, { label: URL, name: url, widget: string }] }
       - label: "Footer"
-        name: "footer"
+        name: footer
         file: "src/_data/navigation.yaml"
         fields:
           - label: Navigation items in footer
@@ -58,11 +58,9 @@ collections:
               - { label: column1, name: dropdown, widget: list, allow_add: true, collapsed: false, fields: [{ label: Title, name: text, widget: string }, { label: URL, name: url, widget: string }, { label: Items, name: items, widget: list, allow_add: true, collapsed: false, fields: [{ label: Text, name: text, widget: string }, { label: URL, name: url, widget: string }]}] }
   - label: "Metadata"
     name: "metadata"
-    editor:
-      preview: false
     files:
       - label: "Pages"
-        name: "page"
+        name: page
         file: "src/_data/metadata.yaml"
         fields:
           - label: Pages metatitles- and descriptions
@@ -75,7 +73,7 @@ collections:
               - { label: Metatitle, name: title, widget: string }
               - { label: Metadescription, name: description, widget: string }
       - label: "Subpages"
-        name: "subpage"
+        name: subpage
         file: "src/_data/metadata.yaml"
         fields:
           - label: Subpages metatitles- and descriptions
@@ -88,7 +86,7 @@ collections:
               - { label: Metatitle, name: title, widget: string }
               - { label: Metadescription, name: description, widget: string }        
   - label: "Settings"
-    name: "settings"
+    name: settings
     editor:
       preview: false
     files:
@@ -99,3 +97,24 @@ collections:
           - { label: Name, name: name, widget: string }
           - { label: Author, name: author, widget: string }
           - { label: URL, name: url, widget: string }   
+      - label: "Color variables"
+        name: "color-variables"
+        file: "src/_data/variables.yaml"
+        fields:
+          - { label: Primary color, name: primary, widget: string }
+          - { label: Secondary color, name: secondary, widget: string }
+          - { label: Highlight color, name: highlight, widget: string }
+          - { label: Heading color, name: heading, widget: string }   
+          - { label: Text color, name: text, widget: string }   
+      - label: "Text variables"
+        name: "text-variables"
+        file: "src/_data/text-variables.yaml"
+        fields:
+          - { label: h1, name: h1, widget: number }
+          - { label: h2, name: h2, widget: number }
+          - { label: h3, name: h3, widget: number }
+          - { label: h4, name: h4, widget: number }   
+          - { label: body, name: body, widget: number }   
+          - { label: details, name: details, widget: number }   
+          - { label: heading, name: heading, widget: number }   
+          
