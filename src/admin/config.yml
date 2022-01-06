@@ -44,6 +44,7 @@ collections:
               - { label: URL, name: url, widget: string }
               - { label: Dropdown items, name: dropdown, widget: list, allow_add: true, collapsed: true, fields: [{ label: Title, name: text, widget: string }, { label: URL, name: url, widget: string }] }
       - label: "Footer"
+        name: footer
         file: "src/_data/navigationFooter.yaml"
         fields:
           - label: Navigation items in footer
@@ -61,29 +62,23 @@ collections:
       - label: "Pages"
         name: page
         file: "src/_data/metadataPages.yaml"
+        widget: list
+        allow_add: true
+        collapsed: true
         fields:
-          - label: Pages metatitles- and descriptions
-            name: page
-            widget: list
-            allow_add: true
-            collapsed: true
-            fields:
-              - { label: Page URL, name: url, widget: string }
-              - { label: Metatitle, name: title, widget: string }
-              - { label: Metadescription, name: description, widget: string }
+          - { label: Page URL, name: url, widget: string }
+          - { label: Metatitle, name: title, widget: string }
+          - { label: Metadescription, name: description, widget: string }
       - label: "Subpages"
         name: subpage
         file: "src/_data/metadataSubpages.yaml"
+        widget: list
+        allow_add: true
+        collapsed: true
         fields:
-          - label: Subpages metatitles- and descriptions
-            name: subpage
-            widget: list
-            allow_add: true
-            collapsed: true
-            fields:
-              - { label: Subpage URL, name: url, widget: string }
-              - { label: Metatitle, name: title, widget: string }
-              - { label: Metadescription, name: description, widget: string }        
+          - { label: Subpage URL, name: url, widget: string }
+          - { label: Metatitle, name: title, widget: string }
+          - { label: Metadescription, name: description, widget: string }        
   - label: "Settings"
     name: settings
     editor:
