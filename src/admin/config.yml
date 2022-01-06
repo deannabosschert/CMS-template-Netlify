@@ -26,7 +26,7 @@ collections:
         create: true
         options: ["ontdek-curacao", "posts", "subpage"]
   - label: "Navigation"
-    name: navigation
+    name: "navigation"
     editor:
       preview: false
     files:
