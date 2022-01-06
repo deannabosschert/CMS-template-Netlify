@@ -44,7 +44,6 @@ collections:
               - { label: URL, name: url, widget: string }
               - { label: Dropdown items, name: dropdown, widget: list, allow_add: true, collapsed: true, fields: [{ label: Title, name: text, widget: string }, { label: URL, name: url, widget: string }] }
       - label: "Footer"
-        name: footer
         file: "src/_data/navigationFooter.yaml"
         fields:
           - label: Navigation items in footer
@@ -61,7 +60,7 @@ collections:
     files:
       - label: "Pages"
         name: page
-        file: "src/_data/metadata.yaml"
+        file: "src/_data/metadataPages.yaml"
         fields:
           - label: Pages metatitles- and descriptions
             name: page
@@ -74,7 +73,7 @@ collections:
               - { label: Metadescription, name: description, widget: string }
       - label: "Subpages"
         name: subpage
-        file: "src/_data/metadata.yaml"
+        file: "src/_data/metadataSubpages.yaml"
         fields:
           - label: Subpages metatitles- and descriptions
             name: subpage
@@ -97,7 +96,7 @@ collections:
           - { label: Name, name: name, widget: string }
           - { label: Author, name: author, widget: string }
           - { label: URL, name: url, widget: string }   
-      - label: "Color variables"
+      - label: "Color variables in HEX"
         name: "color-variables"
         file: "src/_data/color-variables.yaml"
         fields:
@@ -106,7 +105,7 @@ collections:
           - { label: Highlight color, name: highlight, widget: string }
           - { label: Heading color, name: heading, widget: string }   
           - { label: Text color, name: text, widget: string }   
-      - label: "Text variables"
+      - label: "Text variables in rem"
         name: "text-variables"
         file: "src/_data/text-variables.yaml"
         fields:

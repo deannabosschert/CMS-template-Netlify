@@ -1,69 +1,50 @@
 page:
   - url: index
     title: Huur een villa of appartement op Curacao bij Holiday Rentals Curacao
-    description: Holiday Rentals Curacao | Vakantiehuisje, villa, vakantiewoning of
-      appartement op Curacao huren met SGR en laagste prijs garantie
+    description: Holiday Rentals Curacao | Vakantiehuisje, villa, vakantiewoning of appartement op Curacao huren met SGR en laagste prijs garantie
   - url: ontdek-curacao
     title: Ontdek Curacao. Er is zoveel te doen op Curacao, ontdek het hier
-    description: Op curacao zijn er talloze diverse activiteiten te doen. Naast het
-      bezoeken van de prachtige stranden is er nog zo veel meer
+    description: Op curacao zijn er talloze diverse activiteiten te doen. Naast het bezoeken van de prachtige stranden is er nog zo veel meer
   - url: vakantiehuizen
     title: Vakantiehuizen op Curacao   - boek hier je vakantiehuis direct aan zee
-    description: Ontdek Curaçao met een zorgeloze vakantie van Holiday Rentals
-      Curaçao. Verblijf in een vakantiehuis met eigen zwembad, terras, terrassen
-      en een luxe spa
+    description: Ontdek Curaçao met een zorgeloze vakantie van Holiday Rentals Curaçao. Verblijf in een vakantiehuis met eigen zwembad, terras, terrassen en een luxe spa
   - url: autos-huren
     title: Autoverhuur op Curacao. All-in prijzen en topservice
-    description: Autoverhuur op Curaçao bij Holiday Rentals Curacao, overzicht
-      huurauto's op curacao, veilig een auto huren, all-in autohuur voor een
-      scherpe prijs. Boek een ticket en geniet van het prachtige weer op Curacao
+    description: Autoverhuur op Curaçao bij Holiday Rentals Curacao, overzicht huurauto's op curacao, veilig een auto huren, all-in autohuur voor een scherpe prijs. Boek een ticket en geniet van het prachtige weer op Curacao
   - url: villas
     title: Villa's in Curacao huren. Op vakantie naar Curacao
-    description: Een luxe villa aan het strand of met eigen prive zwembad. Geniet
-      van zon, zee en strand op curacao in een villa met alle comfort en luxe
+    description: Een luxe villa aan het strand of met eigen prive zwembad. Geniet van zon, zee en strand op curacao in een villa met alle comfort en luxe
   - url: appartementen
     title: Verhuur van Vakantiewoning, appartementen & villa's op Curacao.
     description: Meer dan 100 appartementen op Curacao op een resort, op loopafstand van het strand en met eigen zwembad. Boek met onze laagste prijs garantie
 subpage:
   - url: bezienswaardigheden
     title: Bezienswaardigheden Curacao   - bekijk de top 10 bezienswaardigheden
-    description: Curacao heeft leuke en interessante bezienswaardigheden. We hebben
-      een top 10 voor jou geselecteerd van degenen die je zeker niet mag missen.
+    description: Curacao heeft leuke en interessante bezienswaardigheden. We hebben een top 10 voor jou geselecteerd van degenen die je zeker niet mag missen.
   - url: stranden
     title: Stranden Curacao   - Ontdek hier de mooiste stranden van Curacao
-    description: Curacao bezit wel meer dan 30 stranden, genoeg keuze dus! Bekijk
-      hier de top 10 idylische strandjes op het Caribische eiland Curacao"
+    description: Curacao bezit wel meer dan 30 stranden, genoeg keuze dus! Bekijk hier de top 10 idylische strandjes op het Caribische eiland Curacao"
   - url: watersporten
     title: Watersport Curacao   - Geniet van het buitenleven en ga duiken of kiten
-    description: Ontdek de diverse watersporten op Curacao zoals zeilen, kiten,
-      duiken, snorkelen, fly boarden, windsurfen, jetskieen of waterskien"
+    description: Ontdek de diverse watersporten op Curacao zoals zeilen, kiten, duiken, snorkelen, fly boarden, windsurfen, jetskieen of waterskien"
   - url: landsporten
     title: Landsporten op Curacao   - mountainbiken, golfen, wandelen op Curacao
-    description: Curacao kent diverse landsporten en maak een mooie wandeling door
-      de bergen, verken de zoutpannen met een mountainbike of ga lekker golfen"
+    description: Curacao kent diverse landsporten en maak een mooie wandeling door de bergen, verken de zoutpannen met een mountainbike of ga lekker golfen"
   - url: evenementen
     title: De leukste evenementen op Curacao   - fuikdag, carnaval en meer
-    description: Op Curacao is er altijd wel wat te doen. Het hele jaar door worden
-      er diverse evenementen georganiseerd. Enjoy your holiday"
+    description: Op Curacao is er altijd wel wat te doen. Het hele jaar door worden er diverse evenementen georganiseerd. Enjoy your holiday"
   - url: musea
     title: Musea Curacao   - maak kennis met de cultuur van Curacao
-    description: Ontdek diverse musea op Curacao en maak kennis met de geschieden en
-      cultuur %%sep%% Tula, octagon, savonet, kura hulanda of het curacao
-      museum."
+    description: Ontdek diverse musea op Curacao en maak kennis met de geschieden en cultuur %%sep%% Tula, octagon, savonet, kura hulanda of het curacao museum."
   - url: winkelen
     title: Winkelen op Curacao   - Op Curacao genoeg keus om heerlijk te shoppen
-    description: Als je een dagje wilt winkelen op Curacao heb je vele
-      winkelcentra's of ook wel shopping malls genoemd. Bekijk ze alle 10"
+    description: Als je een dagje wilt winkelen op Curacao heb je vele winkelcentra's of ook wel shopping malls genoemd. Bekijk ze alle 10"
   - url: landhuizen
     title: Landhuizen Curacao   - een belangrijk cultureel erfgoed op Curacao
-    description: Curacao kent vele landhuizen als brakkeput mei-mei, Chobolobo en
-      dokterstuin. Een aanrader om te bezoeken om de historie te begrijpen"
+    description: Curacao kent vele landhuizen als brakkeput mei-mei, Chobolobo en dokterstuin. Een aanrader om te bezoeken om de historie te begrijpen"
   - url: kids-activiteiten
     title: Kids activiteiten op Curacao   - Er zijn genoeg leuke dingen te doen!
-    description: Curacao is een ideaal vakantieland met kinderen. Rustige baaien en
-      genoeg kids activiteiten voor het hele gezin"
+    description: Curacao is een ideaal vakantieland met kinderen. Rustige baaien en genoeg kids activiteiten voor het hele gezin"
   - url: restaurants
-    title: Restaurants Curacao   - Curacao kent vele restaurants onze favorieten
-      zijn..
-    description: Uit eten op Curacao? Dan heb je heel veel keus in restaurants met
-      diverse keukens op bijzonder mooie locaties"
+    title: Restaurants Curacao   - Curacao kent vele restaurants onze favorieten zijn..
+    description: Uit eten op Curacao? Dan heb je heel veel keus in restaurants met diverse keukens op bijzonder mooie locaties"
