@@ -1,19 +1,18 @@
----
 header:
-  - text: Vakantiehuizen
-    url: "/vakantiehuizen"
+  - text: Verblijven
+    url: /vakantiehuizen
     dropdown:
       - text: Wijken op Curacao
-        url: "/wijken-op-curacao"
+        url: /wijken-op-curacao
       - text: Voorkeuren
-        url: "/voorkeuren"
+        url: /voorkeuren
       - text: Type woning
-        url: "/type-woning"
+        url: /type-woning
   - text: Appartementen
-    url: "/appartementen"
+    url: /appartementen
   - text: Villa's
-    url: "/villas"
+    url: /villas
   - text: Auto's huren
-    url: "/autos-huren"
+    url: /autos-huren
   - text: Ontdek Curacao
-    url: "/ontdek-curacao"
+    url: /ontdek-curacao
