@@ -45,6 +45,7 @@
         letter-spacing: 0.5px;
 
         &__listItem {
+            margin-bottom: 0;
             a {
                 font-family: $font-primary;
                 color: $black;

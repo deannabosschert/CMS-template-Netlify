@@ -1063,6 +1063,9 @@ img {
   padding: 0 30px;
   letter-spacing: 0.5px;
 }
+.c-header-nav .header-nav__menu__listItem {
+  margin-bottom: 0;
+}
 .c-header-nav .header-nav__menu__listItem a {
   font-family: "Poppins", helvetica, arial, sans-serif;
   color: #000000;
